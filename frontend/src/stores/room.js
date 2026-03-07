@@ -20,6 +20,7 @@ const getBPSequence = (firstPick) => {
 export const useRoomStore = defineStore('room', () => {
   const id = ref(null)
   const hostId = ref(null)
+  const inviteCode = ref(null)
   const config = ref({ bo: 3, globalBP: true, mapId: null, firstPick: 'blue' })
   const seats = ref({
     blue: { players: [null, null, null], coaches: [null, null] },
@@ -79,8 +80,6 @@ export const useRoomStore = defineStore('room', () => {
       bpState.value.phase = 'finished'
       bpState.value.status = 'finished'
     }
-
-    delete bpState.value.softLock[info.team]
   }
 
   function setPrePick(userId, brawlerId) {
@@ -121,6 +120,7 @@ export const useRoomStore = defineStore('room', () => {
     if (record.seats) seats.value = record.seats
     if (record.bpState) bpState.value = { ...bpState.value, ...record.bpState }
     if (record.hostId) hostId.value = record.hostId
+    if (record.inviteCode) inviteCode.value = record.inviteCode
   }
 
   async function createRoom(cfg) {
@@ -136,6 +136,7 @@ export const useRoomStore = defineStore('room', () => {
       const record = await pb.collection('rooms').create(data)
       id.value = record.id
       hostId.value = record.hostId
+      inviteCode.value = record.inviteCode
       if (record.config) config.value = record.config
       return record
     } catch (e) {
@@ -186,7 +187,7 @@ export const useRoomStore = defineStore('room', () => {
   }
 
   return {
-    id, hostId, config, seats, bpState, historyLocks,
+    id, hostId, inviteCode, config, seats, bpState, historyLocks,
     currentTurnInfo, isBanPhase, isPickPhase,
     bannedBrawlerIds, pickedBrawlerIds, availableBrawlers, currentTeam,
     getBPSequence,

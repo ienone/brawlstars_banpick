@@ -90,7 +90,8 @@ function showSnack(text, color = 'success') {
 }
 
 async function copyInvite(team) {
-  const url = `${window.location.origin}/room/${roomStore.id}?team=${team}&code=${roomStore.id}`
+  const code = roomStore.inviteCode || roomStore.id
+  const url = `${window.location.origin}/room/${roomStore.id}?team=${team}&code=${code}`
   await navigator.clipboard.writeText(url)
   showSnack(`${team.toUpperCase()} team invite copied!`)
 }

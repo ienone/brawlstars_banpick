@@ -16,7 +16,7 @@ export const useBrawlersStore = defineStore('brawlers', () => {
   }
 
   const getBrawlerById = computed(() => (id) => {
-    return brawlers.value.find(b => b.bid === id) || null
+    return brawlers.value.find(b => String(b.bid) === String(id)) || null
   })
 
   return { brawlers, loadBrawlers, getBrawlerById }
