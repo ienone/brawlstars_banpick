@@ -175,7 +175,7 @@
       "bid": 16000014,
       "name_en": "BO",
       "name_cn": "BO",
-      "rarity": "Common",
+      "rarity": "Epic",
       "color": "#d850ff",
       "image_url": "/assets/brawlers/16000014.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000014.png"
@@ -184,7 +184,7 @@
       "bid": 16000015,
       "name_en": "PIPER",
       "name_cn": "PIPER",
-      "rarity": "Common",
+      "rarity": "Epic",
       "color": "#d850ff",
       "image_url": "/assets/brawlers/16000015.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000015.png"
@@ -193,7 +193,7 @@
       "bid": 16000016,
       "name_en": "PAM",
       "name_cn": "PAM",
-      "rarity": "Common",
+      "rarity": "Epic",
       "color": "#d850ff",
       "image_url": "/assets/brawlers/16000016.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000016.png"
@@ -202,7 +202,7 @@
       "bid": 16000020,
       "name_en": "FRANK",
       "name_cn": "FRANK",
-      "rarity": "Common",
+      "rarity": "Epic",
       "color": "#d850ff",
       "image_url": "/assets/brawlers/16000020.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000020.png"
@@ -211,7 +211,7 @@
       "bid": 16000026,
       "name_en": "BIBI",
       "name_cn": "BIBI",
-      "rarity": "Common",
+      "rarity": "Epic",
       "color": "#d850ff",
       "image_url": "/assets/brawlers/16000026.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000026.png"
@@ -220,7 +220,7 @@
       "bid": 16000029,
       "name_en": "BEA",
       "name_cn": "BEA",
-      "rarity": "Common",
+      "rarity": "Epic",
       "color": "#d850ff",
       "image_url": "/assets/brawlers/16000029.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000029.png"
@@ -229,7 +229,7 @@
       "bid": 16000030,
       "name_en": "EMZ",
       "name_cn": "EMZ",
-      "rarity": "Common",
+      "rarity": "Epic",
       "color": "#d850ff",
       "image_url": "/assets/brawlers/16000030.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000030.png"
@@ -238,7 +238,7 @@
       "bid": 16000035,
       "name_en": "GALE",
       "name_cn": "GALE",
-      "rarity": "Common",
+      "rarity": "Epic",
       "color": "#d850ff",
       "image_url": "/assets/brawlers/16000035.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000035.png"
@@ -247,7 +247,7 @@
       "bid": 16000036,
       "name_en": "NANI",
       "name_cn": "NANI",
-      "rarity": "Common",
+      "rarity": "Epic",
       "color": "#d850ff",
       "image_url": "/assets/brawlers/16000036.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000036.png"
@@ -256,7 +256,7 @@
       "bid": 16000039,
       "name_en": "COLETTE",
       "name_cn": "COLETTE",
-      "rarity": "Common",
+      "rarity": "Epic",
       "color": "#d850ff",
       "image_url": "/assets/brawlers/16000039.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000039.png"
@@ -265,7 +265,7 @@
       "bid": 16000043,
       "name_en": "EDGAR",
       "name_cn": "EDGAR",
-      "rarity": "Common",
+      "rarity": "Epic",
       "color": "#d850ff",
       "image_url": "/assets/brawlers/16000043.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000043.png"
@@ -274,7 +274,7 @@
       "bid": 16000045,
       "name_en": "STU",
       "name_cn": "STU",
-      "rarity": "Common",
+      "rarity": "Epic",
       "color": "#d850ff",
       "image_url": "/assets/brawlers/16000045.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000045.png"
@@ -283,7 +283,7 @@
       "bid": 16000046,
       "name_en": "BELLE",
       "name_cn": "BELLE",
-      "rarity": "Common",
+      "rarity": "Epic",
       "color": "#d850ff",
       "image_url": "/assets/brawlers/16000046.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000046.png"
@@ -292,7 +292,7 @@
       "bid": 16000048,
       "name_en": "GROM",
       "name_cn": "GROM",
-      "rarity": "Common",
+      "rarity": "Epic",
       "color": "#d850ff",
       "image_url": "/assets/brawlers/16000048.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000048.png"
@@ -301,7 +301,7 @@
       "bid": 16000050,
       "name_en": "GRIFF",
       "name_cn": "GRIFF",
-      "rarity": "Common",
+      "rarity": "Epic",
       "color": "#d850ff",
       "image_url": "/assets/brawlers/16000050.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000050.png"
@@ -310,7 +310,7 @@
       "bid": 16000051,
       "name_en": "ASH",
       "name_cn": "ASH",
-      "rarity": "Common",
+      "rarity": "Epic",
       "color": "#d850ff",
       "image_url": "/assets/brawlers/16000051.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000051.png"
@@ -319,7 +319,7 @@
       "bid": 16000053,
       "name_en": "LOLA",
       "name_cn": "LOLA",
-      "rarity": "Common",
+      "rarity": "Epic",
       "color": "#d850ff",
       "image_url": "/assets/brawlers/16000053.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000053.png"
@@ -328,7 +328,7 @@
       "bid": 16000058,
       "name_en": "BONNIE",
       "name_cn": "BONNIE",
-      "rarity": "Common",
+      "rarity": "Epic",
       "color": "#d850ff",
       "image_url": "/assets/brawlers/16000058.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000058.png"
@@ -337,7 +337,7 @@
       "bid": 16000060,
       "name_en": "SAM",
       "name_cn": "SAM",
-      "rarity": "Common",
+      "rarity": "Epic",
       "color": "#d850ff",
       "image_url": "/assets/brawlers/16000060.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000060.png"
@@ -346,7 +346,7 @@
       "bid": 16000065,
       "name_en": "MANDY",
       "name_cn": "MANDY",
-      "rarity": "Common",
+      "rarity": "Epic",
       "color": "#d850ff",
       "image_url": "/assets/brawlers/16000065.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000065.png"
@@ -355,7 +355,7 @@
       "bid": 16000068,
       "name_en": "MAISIE",
       "name_cn": "MAISIE",
-      "rarity": "Common",
+      "rarity": "Epic",
       "color": "#d850ff",
       "image_url": "/assets/brawlers/16000068.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000068.png"
@@ -364,7 +364,7 @@
       "bid": 16000069,
       "name_en": "HANK",
       "name_cn": "HANK",
-      "rarity": "Common",
+      "rarity": "Epic",
       "color": "#d850ff",
       "image_url": "/assets/brawlers/16000069.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000069.png"
@@ -373,7 +373,7 @@
       "bid": 16000072,
       "name_en": "PEARL",
       "name_cn": "PEARL",
-      "rarity": "Common",
+      "rarity": "Epic",
       "color": "#d850ff",
       "image_url": "/assets/brawlers/16000072.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000072.png"
@@ -382,7 +382,7 @@
       "bid": 16000077,
       "name_en": "LARRY & LAWRIE",
       "name_cn": "LARRY & LAWRIE",
-      "rarity": "Common",
+      "rarity": "Epic",
       "color": "#d850ff",
       "image_url": "/assets/brawlers/16000077.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000077.png"
@@ -391,7 +391,7 @@
       "bid": 16000079,
       "name_en": "ANGELO",
       "name_cn": "ANGELO",
-      "rarity": "Common",
+      "rarity": "Epic",
       "color": "#d850ff",
       "image_url": "/assets/brawlers/16000079.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000079.png"
@@ -400,7 +400,7 @@
       "bid": 16000082,
       "name_en": "BERRY",
       "name_cn": "BERRY",
-      "rarity": "Common",
+      "rarity": "Epic",
       "color": "#d850ff",
       "image_url": "/assets/brawlers/16000082.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000082.png"
@@ -409,7 +409,7 @@
       "bid": 16000086,
       "name_en": "SHADE",
       "name_cn": "SHADE",
-      "rarity": "Common",
+      "rarity": "Epic",
       "color": "#d850ff",
       "image_url": "/assets/brawlers/16000086.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000086.png"
@@ -418,7 +418,7 @@
       "bid": 16000089,
       "name_en": "MEEPLE",
       "name_cn": "MEEPLE",
-      "rarity": "Common",
+      "rarity": "Epic",
       "color": "#d850ff",
       "image_url": "/assets/brawlers/16000089.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000089.png"
@@ -427,7 +427,7 @@
       "bid": 16000096,
       "name_en": "TRUNK",
       "name_cn": "TRUNK",
-      "rarity": "Common",
+      "rarity": "Epic",
       "color": "#d850ff",
       "image_url": "/assets/brawlers/16000096.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000096.png"
@@ -436,7 +436,7 @@
       "bid": 16000011,
       "name_en": "MORTIS",
       "name_cn": "MORTIS",
-      "rarity": "Common",
+      "rarity": "Mythic",
       "color": "#fe5e72",
       "image_url": "/assets/brawlers/16000011.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000011.png"
@@ -445,7 +445,7 @@
       "bid": 16000017,
       "name_en": "TARA",
       "name_cn": "TARA",
-      "rarity": "Common",
+      "rarity": "Mythic",
       "color": "#fe5e72",
       "image_url": "/assets/brawlers/16000017.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000017.png"
@@ -454,7 +454,7 @@
       "bid": 16000021,
       "name_en": "GENE",
       "name_cn": "GENE",
-      "rarity": "Common",
+      "rarity": "Mythic",
       "color": "#fe5e72",
       "image_url": "/assets/brawlers/16000021.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000021.png"
@@ -463,7 +463,7 @@
       "bid": 16000031,
       "name_en": "MR. P",
       "name_cn": "MR. P",
-      "rarity": "Common",
+      "rarity": "Mythic",
       "color": "#fe5e72",
       "image_url": "/assets/brawlers/16000031.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000031.png"
@@ -472,7 +472,7 @@
       "bid": 16000032,
       "name_en": "MAX",
       "name_cn": "MAX",
-      "rarity": "Common",
+      "rarity": "Mythic",
       "color": "#fe5e72",
       "image_url": "/assets/brawlers/16000032.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000032.png"
@@ -481,7 +481,7 @@
       "bid": 16000037,
       "name_en": "SPROUT",
       "name_cn": "SPROUT",
-      "rarity": "Common",
+      "rarity": "Mythic",
       "color": "#fe5e72",
       "image_url": "/assets/brawlers/16000037.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000037.png"
@@ -490,7 +490,7 @@
       "bid": 16000041,
       "name_en": "LOU",
       "name_cn": "LOU",
-      "rarity": "Common",
+      "rarity": "Mythic",
       "color": "#fe5e72",
       "image_url": "/assets/brawlers/16000041.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000041.png"
@@ -499,7 +499,7 @@
       "bid": 16000042,
       "name_en": "BYRON",
       "name_cn": "BYRON",
-      "rarity": "Common",
+      "rarity": "Mythic",
       "color": "#fe5e72",
       "image_url": "/assets/brawlers/16000042.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000042.png"
@@ -508,7 +508,7 @@
       "bid": 16000044,
       "name_en": "RUFFS",
       "name_cn": "RUFFS",
-      "rarity": "Common",
+      "rarity": "Mythic",
       "color": "#fe5e72",
       "image_url": "/assets/brawlers/16000044.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000044.png"
@@ -517,7 +517,7 @@
       "bid": 16000047,
       "name_en": "SQUEAK",
       "name_cn": "SQUEAK",
-      "rarity": "Common",
+      "rarity": "Mythic",
       "color": "#fe5e72",
       "image_url": "/assets/brawlers/16000047.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000047.png"
@@ -526,7 +526,7 @@
       "bid": 16000049,
       "name_en": "BUZZ",
       "name_cn": "BUZZ",
-      "rarity": "Common",
+      "rarity": "Mythic",
       "color": "#fe5e72",
       "image_url": "/assets/brawlers/16000049.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000049.png"
@@ -535,7 +535,7 @@
       "bid": 16000054,
       "name_en": "FANG",
       "name_cn": "FANG",
-      "rarity": "Common",
+      "rarity": "Mythic",
       "color": "#fe5e72",
       "image_url": "/assets/brawlers/16000054.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000054.png"
@@ -544,7 +544,7 @@
       "bid": 16000056,
       "name_en": "EVE",
       "name_cn": "EVE",
-      "rarity": "Common",
+      "rarity": "Mythic",
       "color": "#fe5e72",
       "image_url": "/assets/brawlers/16000056.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000056.png"
@@ -553,7 +553,7 @@
       "bid": 16000057,
       "name_en": "JANET",
       "name_cn": "JANET",
-      "rarity": "Common",
+      "rarity": "Mythic",
       "color": "#fe5e72",
       "image_url": "/assets/brawlers/16000057.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000057.png"
@@ -562,7 +562,7 @@
       "bid": 16000059,
       "name_en": "OTIS",
       "name_cn": "OTIS",
-      "rarity": "Common",
+      "rarity": "Mythic",
       "color": "#fe5e72",
       "image_url": "/assets/brawlers/16000059.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000059.png"
@@ -571,7 +571,7 @@
       "bid": 16000062,
       "name_en": "BUSTER",
       "name_cn": "BUSTER",
-      "rarity": "Common",
+      "rarity": "Mythic",
       "color": "#fe5e72",
       "image_url": "/assets/brawlers/16000062.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000062.png"
@@ -580,7 +580,7 @@
       "bid": 16000064,
       "name_en": "GRAY",
       "name_cn": "GRAY",
-      "rarity": "Common",
+      "rarity": "Mythic",
       "color": "#fe5e72",
       "image_url": "/assets/brawlers/16000064.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000064.png"
@@ -589,7 +589,7 @@
       "bid": 16000066,
       "name_en": "R-T",
       "name_cn": "R-T",
-      "rarity": "Common",
+      "rarity": "Mythic",
       "color": "#fe5e72",
       "image_url": "/assets/brawlers/16000066.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000066.png"
@@ -598,7 +598,7 @@
       "bid": 16000067,
       "name_en": "WILLOW",
       "name_cn": "WILLOW",
-      "rarity": "Common",
+      "rarity": "Mythic",
       "color": "#fe5e72",
       "image_url": "/assets/brawlers/16000067.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000067.png"
@@ -607,7 +607,7 @@
       "bid": 16000071,
       "name_en": "DOUG",
       "name_cn": "DOUG",
-      "rarity": "Common",
+      "rarity": "Mythic",
       "color": "#fe5e72",
       "image_url": "/assets/brawlers/16000071.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000071.png"
@@ -616,7 +616,7 @@
       "bid": 16000073,
       "name_en": "CHUCK",
       "name_cn": "CHUCK",
-      "rarity": "Common",
+      "rarity": "Mythic",
       "color": "#fe5e72",
       "image_url": "/assets/brawlers/16000073.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000073.png"
@@ -625,7 +625,7 @@
       "bid": 16000074,
       "name_en": "CHARLIE",
       "name_cn": "CHARLIE",
-      "rarity": "Common",
+      "rarity": "Mythic",
       "color": "#fe5e72",
       "image_url": "/assets/brawlers/16000074.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000074.png"
@@ -634,7 +634,7 @@
       "bid": 16000075,
       "name_en": "MICO",
       "name_cn": "MICO",
-      "rarity": "Common",
+      "rarity": "Mythic",
       "color": "#fe5e72",
       "image_url": "/assets/brawlers/16000075.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000075.png"
@@ -643,7 +643,7 @@
       "bid": 16000078,
       "name_en": "MELODIE",
       "name_cn": "MELODIE",
-      "rarity": "Common",
+      "rarity": "Mythic",
       "color": "#fe5e72",
       "image_url": "/assets/brawlers/16000078.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000078.png"
@@ -652,7 +652,7 @@
       "bid": 16000081,
       "name_en": "LILY",
       "name_cn": "LILY",
-      "rarity": "Common",
+      "rarity": "Mythic",
       "color": "#fe5e72",
       "image_url": "/assets/brawlers/16000081.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000081.png"
@@ -661,7 +661,7 @@
       "bid": 16000083,
       "name_en": "CLANCY",
       "name_cn": "CLANCY",
-      "rarity": "Common",
+      "rarity": "Mythic",
       "color": "#fe5e72",
       "image_url": "/assets/brawlers/16000083.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000083.png"
@@ -670,7 +670,7 @@
       "bid": 16000084,
       "name_en": "MOE",
       "name_cn": "MOE",
-      "rarity": "Common",
+      "rarity": "Mythic",
       "color": "#fe5e72",
       "image_url": "/assets/brawlers/16000084.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000084.png"
@@ -679,7 +679,7 @@
       "bid": 16000087,
       "name_en": "JUJU",
       "name_cn": "JUJU",
-      "rarity": "Common",
+      "rarity": "Mythic",
       "color": "#fe5e72",
       "image_url": "/assets/brawlers/16000087.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000087.png"
@@ -688,7 +688,7 @@
       "bid": 16000090,
       "name_en": "OLLIE",
       "name_cn": "OLLIE",
-      "rarity": "Common",
+      "rarity": "Mythic",
       "color": "#fe5e72",
       "image_url": "/assets/brawlers/16000090.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000090.png"
@@ -697,7 +697,7 @@
       "bid": 16000091,
       "name_en": "LUMI",
       "name_cn": "LUMI",
-      "rarity": "Common",
+      "rarity": "Mythic",
       "color": "#fe5e72",
       "image_url": "/assets/brawlers/16000091.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000091.png"
@@ -706,7 +706,7 @@
       "bid": 16000092,
       "name_en": "FINX",
       "name_cn": "FINX",
-      "rarity": "Common",
+      "rarity": "Mythic",
       "color": "#fe5e72",
       "image_url": "/assets/brawlers/16000092.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000092.png"
@@ -715,7 +715,7 @@
       "bid": 16000093,
       "name_en": "JAE-YONG",
       "name_cn": "JAE-YONG",
-      "rarity": "Common",
+      "rarity": "Mythic",
       "color": "#fe5e72",
       "image_url": "/assets/brawlers/16000093.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000093.png"
@@ -724,7 +724,7 @@
       "bid": 16000095,
       "name_en": "ALLI",
       "name_cn": "ALLI",
-      "rarity": "Common",
+      "rarity": "Mythic",
       "color": "#fe5e72",
       "image_url": "/assets/brawlers/16000095.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000095.png"
@@ -733,7 +733,7 @@
       "bid": 16000097,
       "name_en": "MINA",
       "name_cn": "MINA",
-      "rarity": "Common",
+      "rarity": "Mythic",
       "color": "#fe5e72",
       "image_url": "/assets/brawlers/16000097.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000097.png"
@@ -742,7 +742,7 @@
       "bid": 16000098,
       "name_en": "ZIGGY",
       "name_cn": "ZIGGY",
-      "rarity": "Common",
+      "rarity": "Mythic",
       "color": "#fe5e72",
       "image_url": "/assets/brawlers/16000098.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000098.png"
@@ -751,7 +751,7 @@
       "bid": 16000100,
       "name_en": "GIGI",
       "name_cn": "GIGI",
-      "rarity": "Common",
+      "rarity": "Mythic",
       "color": "#fe5e72",
       "image_url": "/assets/brawlers/16000100.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000100.png"
@@ -760,7 +760,7 @@
       "bid": 16000101,
       "name_en": "GLOWBERT",
       "name_cn": "GLOWBERT",
-      "rarity": "Common",
+      "rarity": "Mythic",
       "color": "#fe5e72",
       "image_url": "/assets/brawlers/16000101.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000101.png"
@@ -769,7 +769,7 @@
       "bid": 16000103,
       "name_en": "NAJIA",
       "name_cn": "NAJIA",
-      "rarity": "Common",
+      "rarity": "Mythic",
       "color": "#fe5e72",
       "image_url": "/assets/brawlers/16000103.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000103.png"
@@ -895,7 +895,7 @@
       "bid": 16000094,
       "name_en": "KAZE",
       "name_cn": "KAZE",
-      "rarity": "Common",
+      "rarity": "Ultra Legendary",
       "color": "#f88f25",
       "image_url": "/assets/brawlers/16000094.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000094.png"
@@ -904,7 +904,7 @@
       "bid": 16000102,
       "name_en": "SIRIUS",
       "name_cn": "SIRIUS",
-      "rarity": "Common",
+      "rarity": "Ultra Legendary",
       "color": "#f88f25",
       "image_url": "/assets/brawlers/16000102.webp",
       "remote_url": "https://brawlify.com/images/brawlers/16000102.png"
