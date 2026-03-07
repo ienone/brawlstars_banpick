@@ -1,0 +1,3305 @@
+{
+  "brawlers": [
+    {
+      "bid": 16000000,
+      "name_en": "SHELLY",
+      "name_cn": "SHELLY",
+      "rarity": "Common",
+      "color": "#b9eaff",
+      "image_url": "/assets/brawlers/16000000.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000000.png"
+    },
+    {
+      "bid": 16000001,
+      "name_en": "COLT",
+      "name_cn": "COLT",
+      "rarity": "Rare",
+      "color": "#68fd58",
+      "image_url": "/assets/brawlers/16000001.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000001.png"
+    },
+    {
+      "bid": 16000002,
+      "name_en": "BULL",
+      "name_cn": "BULL",
+      "rarity": "Rare",
+      "color": "#68fd58",
+      "image_url": "/assets/brawlers/16000002.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000002.png"
+    },
+    {
+      "bid": 16000003,
+      "name_en": "BROCK",
+      "name_cn": "BROCK",
+      "rarity": "Rare",
+      "color": "#68fd58",
+      "image_url": "/assets/brawlers/16000003.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000003.png"
+    },
+    {
+      "bid": 16000006,
+      "name_en": "BARLEY",
+      "name_cn": "BARLEY",
+      "rarity": "Rare",
+      "color": "#68fd58",
+      "image_url": "/assets/brawlers/16000006.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000006.png"
+    },
+    {
+      "bid": 16000008,
+      "name_en": "NITA",
+      "name_cn": "NITA",
+      "rarity": "Rare",
+      "color": "#68fd58",
+      "image_url": "/assets/brawlers/16000008.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000008.png"
+    },
+    {
+      "bid": 16000010,
+      "name_en": "EL PRIMO",
+      "name_cn": "EL PRIMO",
+      "rarity": "Rare",
+      "color": "#68fd58",
+      "image_url": "/assets/brawlers/16000010.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000010.png"
+    },
+    {
+      "bid": 16000013,
+      "name_en": "POCO",
+      "name_cn": "POCO",
+      "rarity": "Rare",
+      "color": "#68fd58",
+      "image_url": "/assets/brawlers/16000013.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000013.png"
+    },
+    {
+      "bid": 16000024,
+      "name_en": "ROSA",
+      "name_cn": "ROSA",
+      "rarity": "Rare",
+      "color": "#68fd58",
+      "image_url": "/assets/brawlers/16000024.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000024.png"
+    },
+    {
+      "bid": 16000004,
+      "name_en": "RICO",
+      "name_cn": "RICO",
+      "rarity": "Super Rare",
+      "color": "#5ab3ff",
+      "image_url": "/assets/brawlers/16000004.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000004.png"
+    },
+    {
+      "bid": 16000007,
+      "name_en": "JESSIE",
+      "name_cn": "JESSIE",
+      "rarity": "Super Rare",
+      "color": "#5ab3ff",
+      "image_url": "/assets/brawlers/16000007.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000007.png"
+    },
+    {
+      "bid": 16000009,
+      "name_en": "DYNAMIKE",
+      "name_cn": "DYNAMIKE",
+      "rarity": "Super Rare",
+      "color": "#5ab3ff",
+      "image_url": "/assets/brawlers/16000009.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000009.png"
+    },
+    {
+      "bid": 16000018,
+      "name_en": "DARRYL",
+      "name_cn": "DARRYL",
+      "rarity": "Super Rare",
+      "color": "#5ab3ff",
+      "image_url": "/assets/brawlers/16000018.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000018.png"
+    },
+    {
+      "bid": 16000019,
+      "name_en": "PENNY",
+      "name_cn": "PENNY",
+      "rarity": "Super Rare",
+      "color": "#5ab3ff",
+      "image_url": "/assets/brawlers/16000019.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000019.png"
+    },
+    {
+      "bid": 16000022,
+      "name_en": "TICK",
+      "name_cn": "TICK",
+      "rarity": "Super Rare",
+      "color": "#5ab3ff",
+      "image_url": "/assets/brawlers/16000022.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000022.png"
+    },
+    {
+      "bid": 16000025,
+      "name_en": "CARL",
+      "name_cn": "CARL",
+      "rarity": "Super Rare",
+      "color": "#5ab3ff",
+      "image_url": "/assets/brawlers/16000025.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000025.png"
+    },
+    {
+      "bid": 16000027,
+      "name_en": "8-BIT",
+      "name_cn": "8-BIT",
+      "rarity": "Super Rare",
+      "color": "#5ab3ff",
+      "image_url": "/assets/brawlers/16000027.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000027.png"
+    },
+    {
+      "bid": 16000034,
+      "name_en": "JACKY",
+      "name_cn": "JACKY",
+      "rarity": "Super Rare",
+      "color": "#5ab3ff",
+      "image_url": "/assets/brawlers/16000034.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000034.png"
+    },
+    {
+      "bid": 16000061,
+      "name_en": "GUS",
+      "name_cn": "GUS",
+      "rarity": "Super Rare",
+      "color": "#5ab3ff",
+      "image_url": "/assets/brawlers/16000061.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000061.png"
+    },
+    {
+      "bid": 16000014,
+      "name_en": "BO",
+      "name_cn": "BO",
+      "rarity": "Common",
+      "color": "#d850ff",
+      "image_url": "/assets/brawlers/16000014.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000014.png"
+    },
+    {
+      "bid": 16000015,
+      "name_en": "PIPER",
+      "name_cn": "PIPER",
+      "rarity": "Common",
+      "color": "#d850ff",
+      "image_url": "/assets/brawlers/16000015.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000015.png"
+    },
+    {
+      "bid": 16000016,
+      "name_en": "PAM",
+      "name_cn": "PAM",
+      "rarity": "Common",
+      "color": "#d850ff",
+      "image_url": "/assets/brawlers/16000016.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000016.png"
+    },
+    {
+      "bid": 16000020,
+      "name_en": "FRANK",
+      "name_cn": "FRANK",
+      "rarity": "Common",
+      "color": "#d850ff",
+      "image_url": "/assets/brawlers/16000020.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000020.png"
+    },
+    {
+      "bid": 16000026,
+      "name_en": "BIBI",
+      "name_cn": "BIBI",
+      "rarity": "Common",
+      "color": "#d850ff",
+      "image_url": "/assets/brawlers/16000026.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000026.png"
+    },
+    {
+      "bid": 16000029,
+      "name_en": "BEA",
+      "name_cn": "BEA",
+      "rarity": "Common",
+      "color": "#d850ff",
+      "image_url": "/assets/brawlers/16000029.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000029.png"
+    },
+    {
+      "bid": 16000030,
+      "name_en": "EMZ",
+      "name_cn": "EMZ",
+      "rarity": "Common",
+      "color": "#d850ff",
+      "image_url": "/assets/brawlers/16000030.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000030.png"
+    },
+    {
+      "bid": 16000035,
+      "name_en": "GALE",
+      "name_cn": "GALE",
+      "rarity": "Common",
+      "color": "#d850ff",
+      "image_url": "/assets/brawlers/16000035.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000035.png"
+    },
+    {
+      "bid": 16000036,
+      "name_en": "NANI",
+      "name_cn": "NANI",
+      "rarity": "Common",
+      "color": "#d850ff",
+      "image_url": "/assets/brawlers/16000036.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000036.png"
+    },
+    {
+      "bid": 16000039,
+      "name_en": "COLETTE",
+      "name_cn": "COLETTE",
+      "rarity": "Common",
+      "color": "#d850ff",
+      "image_url": "/assets/brawlers/16000039.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000039.png"
+    },
+    {
+      "bid": 16000043,
+      "name_en": "EDGAR",
+      "name_cn": "EDGAR",
+      "rarity": "Common",
+      "color": "#d850ff",
+      "image_url": "/assets/brawlers/16000043.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000043.png"
+    },
+    {
+      "bid": 16000045,
+      "name_en": "STU",
+      "name_cn": "STU",
+      "rarity": "Common",
+      "color": "#d850ff",
+      "image_url": "/assets/brawlers/16000045.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000045.png"
+    },
+    {
+      "bid": 16000046,
+      "name_en": "BELLE",
+      "name_cn": "BELLE",
+      "rarity": "Common",
+      "color": "#d850ff",
+      "image_url": "/assets/brawlers/16000046.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000046.png"
+    },
+    {
+      "bid": 16000048,
+      "name_en": "GROM",
+      "name_cn": "GROM",
+      "rarity": "Common",
+      "color": "#d850ff",
+      "image_url": "/assets/brawlers/16000048.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000048.png"
+    },
+    {
+      "bid": 16000050,
+      "name_en": "GRIFF",
+      "name_cn": "GRIFF",
+      "rarity": "Common",
+      "color": "#d850ff",
+      "image_url": "/assets/brawlers/16000050.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000050.png"
+    },
+    {
+      "bid": 16000051,
+      "name_en": "ASH",
+      "name_cn": "ASH",
+      "rarity": "Common",
+      "color": "#d850ff",
+      "image_url": "/assets/brawlers/16000051.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000051.png"
+    },
+    {
+      "bid": 16000053,
+      "name_en": "LOLA",
+      "name_cn": "LOLA",
+      "rarity": "Common",
+      "color": "#d850ff",
+      "image_url": "/assets/brawlers/16000053.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000053.png"
+    },
+    {
+      "bid": 16000058,
+      "name_en": "BONNIE",
+      "name_cn": "BONNIE",
+      "rarity": "Common",
+      "color": "#d850ff",
+      "image_url": "/assets/brawlers/16000058.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000058.png"
+    },
+    {
+      "bid": 16000060,
+      "name_en": "SAM",
+      "name_cn": "SAM",
+      "rarity": "Common",
+      "color": "#d850ff",
+      "image_url": "/assets/brawlers/16000060.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000060.png"
+    },
+    {
+      "bid": 16000065,
+      "name_en": "MANDY",
+      "name_cn": "MANDY",
+      "rarity": "Common",
+      "color": "#d850ff",
+      "image_url": "/assets/brawlers/16000065.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000065.png"
+    },
+    {
+      "bid": 16000068,
+      "name_en": "MAISIE",
+      "name_cn": "MAISIE",
+      "rarity": "Common",
+      "color": "#d850ff",
+      "image_url": "/assets/brawlers/16000068.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000068.png"
+    },
+    {
+      "bid": 16000069,
+      "name_en": "HANK",
+      "name_cn": "HANK",
+      "rarity": "Common",
+      "color": "#d850ff",
+      "image_url": "/assets/brawlers/16000069.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000069.png"
+    },
+    {
+      "bid": 16000072,
+      "name_en": "PEARL",
+      "name_cn": "PEARL",
+      "rarity": "Common",
+      "color": "#d850ff",
+      "image_url": "/assets/brawlers/16000072.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000072.png"
+    },
+    {
+      "bid": 16000077,
+      "name_en": "LARRY & LAWRIE",
+      "name_cn": "LARRY & LAWRIE",
+      "rarity": "Common",
+      "color": "#d850ff",
+      "image_url": "/assets/brawlers/16000077.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000077.png"
+    },
+    {
+      "bid": 16000079,
+      "name_en": "ANGELO",
+      "name_cn": "ANGELO",
+      "rarity": "Common",
+      "color": "#d850ff",
+      "image_url": "/assets/brawlers/16000079.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000079.png"
+    },
+    {
+      "bid": 16000082,
+      "name_en": "BERRY",
+      "name_cn": "BERRY",
+      "rarity": "Common",
+      "color": "#d850ff",
+      "image_url": "/assets/brawlers/16000082.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000082.png"
+    },
+    {
+      "bid": 16000086,
+      "name_en": "SHADE",
+      "name_cn": "SHADE",
+      "rarity": "Common",
+      "color": "#d850ff",
+      "image_url": "/assets/brawlers/16000086.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000086.png"
+    },
+    {
+      "bid": 16000089,
+      "name_en": "MEEPLE",
+      "name_cn": "MEEPLE",
+      "rarity": "Common",
+      "color": "#d850ff",
+      "image_url": "/assets/brawlers/16000089.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000089.png"
+    },
+    {
+      "bid": 16000096,
+      "name_en": "TRUNK",
+      "name_cn": "TRUNK",
+      "rarity": "Common",
+      "color": "#d850ff",
+      "image_url": "/assets/brawlers/16000096.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000096.png"
+    },
+    {
+      "bid": 16000011,
+      "name_en": "MORTIS",
+      "name_cn": "MORTIS",
+      "rarity": "Common",
+      "color": "#fe5e72",
+      "image_url": "/assets/brawlers/16000011.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000011.png"
+    },
+    {
+      "bid": 16000017,
+      "name_en": "TARA",
+      "name_cn": "TARA",
+      "rarity": "Common",
+      "color": "#fe5e72",
+      "image_url": "/assets/brawlers/16000017.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000017.png"
+    },
+    {
+      "bid": 16000021,
+      "name_en": "GENE",
+      "name_cn": "GENE",
+      "rarity": "Common",
+      "color": "#fe5e72",
+      "image_url": "/assets/brawlers/16000021.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000021.png"
+    },
+    {
+      "bid": 16000031,
+      "name_en": "MR. P",
+      "name_cn": "MR. P",
+      "rarity": "Common",
+      "color": "#fe5e72",
+      "image_url": "/assets/brawlers/16000031.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000031.png"
+    },
+    {
+      "bid": 16000032,
+      "name_en": "MAX",
+      "name_cn": "MAX",
+      "rarity": "Common",
+      "color": "#fe5e72",
+      "image_url": "/assets/brawlers/16000032.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000032.png"
+    },
+    {
+      "bid": 16000037,
+      "name_en": "SPROUT",
+      "name_cn": "SPROUT",
+      "rarity": "Common",
+      "color": "#fe5e72",
+      "image_url": "/assets/brawlers/16000037.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000037.png"
+    },
+    {
+      "bid": 16000041,
+      "name_en": "LOU",
+      "name_cn": "LOU",
+      "rarity": "Common",
+      "color": "#fe5e72",
+      "image_url": "/assets/brawlers/16000041.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000041.png"
+    },
+    {
+      "bid": 16000042,
+      "name_en": "BYRON",
+      "name_cn": "BYRON",
+      "rarity": "Common",
+      "color": "#fe5e72",
+      "image_url": "/assets/brawlers/16000042.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000042.png"
+    },
+    {
+      "bid": 16000044,
+      "name_en": "RUFFS",
+      "name_cn": "RUFFS",
+      "rarity": "Common",
+      "color": "#fe5e72",
+      "image_url": "/assets/brawlers/16000044.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000044.png"
+    },
+    {
+      "bid": 16000047,
+      "name_en": "SQUEAK",
+      "name_cn": "SQUEAK",
+      "rarity": "Common",
+      "color": "#fe5e72",
+      "image_url": "/assets/brawlers/16000047.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000047.png"
+    },
+    {
+      "bid": 16000049,
+      "name_en": "BUZZ",
+      "name_cn": "BUZZ",
+      "rarity": "Common",
+      "color": "#fe5e72",
+      "image_url": "/assets/brawlers/16000049.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000049.png"
+    },
+    {
+      "bid": 16000054,
+      "name_en": "FANG",
+      "name_cn": "FANG",
+      "rarity": "Common",
+      "color": "#fe5e72",
+      "image_url": "/assets/brawlers/16000054.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000054.png"
+    },
+    {
+      "bid": 16000056,
+      "name_en": "EVE",
+      "name_cn": "EVE",
+      "rarity": "Common",
+      "color": "#fe5e72",
+      "image_url": "/assets/brawlers/16000056.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000056.png"
+    },
+    {
+      "bid": 16000057,
+      "name_en": "JANET",
+      "name_cn": "JANET",
+      "rarity": "Common",
+      "color": "#fe5e72",
+      "image_url": "/assets/brawlers/16000057.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000057.png"
+    },
+    {
+      "bid": 16000059,
+      "name_en": "OTIS",
+      "name_cn": "OTIS",
+      "rarity": "Common",
+      "color": "#fe5e72",
+      "image_url": "/assets/brawlers/16000059.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000059.png"
+    },
+    {
+      "bid": 16000062,
+      "name_en": "BUSTER",
+      "name_cn": "BUSTER",
+      "rarity": "Common",
+      "color": "#fe5e72",
+      "image_url": "/assets/brawlers/16000062.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000062.png"
+    },
+    {
+      "bid": 16000064,
+      "name_en": "GRAY",
+      "name_cn": "GRAY",
+      "rarity": "Common",
+      "color": "#fe5e72",
+      "image_url": "/assets/brawlers/16000064.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000064.png"
+    },
+    {
+      "bid": 16000066,
+      "name_en": "R-T",
+      "name_cn": "R-T",
+      "rarity": "Common",
+      "color": "#fe5e72",
+      "image_url": "/assets/brawlers/16000066.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000066.png"
+    },
+    {
+      "bid": 16000067,
+      "name_en": "WILLOW",
+      "name_cn": "WILLOW",
+      "rarity": "Common",
+      "color": "#fe5e72",
+      "image_url": "/assets/brawlers/16000067.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000067.png"
+    },
+    {
+      "bid": 16000071,
+      "name_en": "DOUG",
+      "name_cn": "DOUG",
+      "rarity": "Common",
+      "color": "#fe5e72",
+      "image_url": "/assets/brawlers/16000071.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000071.png"
+    },
+    {
+      "bid": 16000073,
+      "name_en": "CHUCK",
+      "name_cn": "CHUCK",
+      "rarity": "Common",
+      "color": "#fe5e72",
+      "image_url": "/assets/brawlers/16000073.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000073.png"
+    },
+    {
+      "bid": 16000074,
+      "name_en": "CHARLIE",
+      "name_cn": "CHARLIE",
+      "rarity": "Common",
+      "color": "#fe5e72",
+      "image_url": "/assets/brawlers/16000074.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000074.png"
+    },
+    {
+      "bid": 16000075,
+      "name_en": "MICO",
+      "name_cn": "MICO",
+      "rarity": "Common",
+      "color": "#fe5e72",
+      "image_url": "/assets/brawlers/16000075.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000075.png"
+    },
+    {
+      "bid": 16000078,
+      "name_en": "MELODIE",
+      "name_cn": "MELODIE",
+      "rarity": "Common",
+      "color": "#fe5e72",
+      "image_url": "/assets/brawlers/16000078.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000078.png"
+    },
+    {
+      "bid": 16000081,
+      "name_en": "LILY",
+      "name_cn": "LILY",
+      "rarity": "Common",
+      "color": "#fe5e72",
+      "image_url": "/assets/brawlers/16000081.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000081.png"
+    },
+    {
+      "bid": 16000083,
+      "name_en": "CLANCY",
+      "name_cn": "CLANCY",
+      "rarity": "Common",
+      "color": "#fe5e72",
+      "image_url": "/assets/brawlers/16000083.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000083.png"
+    },
+    {
+      "bid": 16000084,
+      "name_en": "MOE",
+      "name_cn": "MOE",
+      "rarity": "Common",
+      "color": "#fe5e72",
+      "image_url": "/assets/brawlers/16000084.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000084.png"
+    },
+    {
+      "bid": 16000087,
+      "name_en": "JUJU",
+      "name_cn": "JUJU",
+      "rarity": "Common",
+      "color": "#fe5e72",
+      "image_url": "/assets/brawlers/16000087.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000087.png"
+    },
+    {
+      "bid": 16000090,
+      "name_en": "OLLIE",
+      "name_cn": "OLLIE",
+      "rarity": "Common",
+      "color": "#fe5e72",
+      "image_url": "/assets/brawlers/16000090.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000090.png"
+    },
+    {
+      "bid": 16000091,
+      "name_en": "LUMI",
+      "name_cn": "LUMI",
+      "rarity": "Common",
+      "color": "#fe5e72",
+      "image_url": "/assets/brawlers/16000091.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000091.png"
+    },
+    {
+      "bid": 16000092,
+      "name_en": "FINX",
+      "name_cn": "FINX",
+      "rarity": "Common",
+      "color": "#fe5e72",
+      "image_url": "/assets/brawlers/16000092.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000092.png"
+    },
+    {
+      "bid": 16000093,
+      "name_en": "JAE-YONG",
+      "name_cn": "JAE-YONG",
+      "rarity": "Common",
+      "color": "#fe5e72",
+      "image_url": "/assets/brawlers/16000093.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000093.png"
+    },
+    {
+      "bid": 16000095,
+      "name_en": "ALLI",
+      "name_cn": "ALLI",
+      "rarity": "Common",
+      "color": "#fe5e72",
+      "image_url": "/assets/brawlers/16000095.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000095.png"
+    },
+    {
+      "bid": 16000097,
+      "name_en": "MINA",
+      "name_cn": "MINA",
+      "rarity": "Common",
+      "color": "#fe5e72",
+      "image_url": "/assets/brawlers/16000097.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000097.png"
+    },
+    {
+      "bid": 16000098,
+      "name_en": "ZIGGY",
+      "name_cn": "ZIGGY",
+      "rarity": "Common",
+      "color": "#fe5e72",
+      "image_url": "/assets/brawlers/16000098.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000098.png"
+    },
+    {
+      "bid": 16000100,
+      "name_en": "GIGI",
+      "name_cn": "GIGI",
+      "rarity": "Common",
+      "color": "#fe5e72",
+      "image_url": "/assets/brawlers/16000100.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000100.png"
+    },
+    {
+      "bid": 16000101,
+      "name_en": "GLOWBERT",
+      "name_cn": "GLOWBERT",
+      "rarity": "Common",
+      "color": "#fe5e72",
+      "image_url": "/assets/brawlers/16000101.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000101.png"
+    },
+    {
+      "bid": 16000103,
+      "name_en": "NAJIA",
+      "name_cn": "NAJIA",
+      "rarity": "Common",
+      "color": "#fe5e72",
+      "image_url": "/assets/brawlers/16000103.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000103.png"
+    },
+    {
+      "bid": 16000005,
+      "name_en": "SPIKE",
+      "name_cn": "SPIKE",
+      "rarity": "Legendary",
+      "color": "#fff11e",
+      "image_url": "/assets/brawlers/16000005.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000005.png"
+    },
+    {
+      "bid": 16000012,
+      "name_en": "CROW",
+      "name_cn": "CROW",
+      "rarity": "Legendary",
+      "color": "#fff11e",
+      "image_url": "/assets/brawlers/16000012.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000012.png"
+    },
+    {
+      "bid": 16000023,
+      "name_en": "LEON",
+      "name_cn": "LEON",
+      "rarity": "Legendary",
+      "color": "#fff11e",
+      "image_url": "/assets/brawlers/16000023.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000023.png"
+    },
+    {
+      "bid": 16000028,
+      "name_en": "SANDY",
+      "name_cn": "SANDY",
+      "rarity": "Legendary",
+      "color": "#fff11e",
+      "image_url": "/assets/brawlers/16000028.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000028.png"
+    },
+    {
+      "bid": 16000038,
+      "name_en": "SURGE",
+      "name_cn": "SURGE",
+      "rarity": "Legendary",
+      "color": "#fff11e",
+      "image_url": "/assets/brawlers/16000038.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000038.png"
+    },
+    {
+      "bid": 16000040,
+      "name_en": "AMBER",
+      "name_cn": "AMBER",
+      "rarity": "Legendary",
+      "color": "#fff11e",
+      "image_url": "/assets/brawlers/16000040.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000040.png"
+    },
+    {
+      "bid": 16000052,
+      "name_en": "MEG",
+      "name_cn": "MEG",
+      "rarity": "Legendary",
+      "color": "#fff11e",
+      "image_url": "/assets/brawlers/16000052.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000052.png"
+    },
+    {
+      "bid": 16000063,
+      "name_en": "CHESTER",
+      "name_cn": "CHESTER",
+      "rarity": "Legendary",
+      "color": "#fff11e",
+      "image_url": "/assets/brawlers/16000063.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000063.png"
+    },
+    {
+      "bid": 16000070,
+      "name_en": "CORDELIUS",
+      "name_cn": "CORDELIUS",
+      "rarity": "Legendary",
+      "color": "#fff11e",
+      "image_url": "/assets/brawlers/16000070.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000070.png"
+    },
+    {
+      "bid": 16000076,
+      "name_en": "KIT",
+      "name_cn": "KIT",
+      "rarity": "Legendary",
+      "color": "#fff11e",
+      "image_url": "/assets/brawlers/16000076.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000076.png"
+    },
+    {
+      "bid": 16000080,
+      "name_en": "DRACO",
+      "name_cn": "DRACO",
+      "rarity": "Legendary",
+      "color": "#fff11e",
+      "image_url": "/assets/brawlers/16000080.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000080.png"
+    },
+    {
+      "bid": 16000085,
+      "name_en": "KENJI",
+      "name_cn": "KENJI",
+      "rarity": "Legendary",
+      "color": "#fff11e",
+      "image_url": "/assets/brawlers/16000085.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000085.png"
+    },
+    {
+      "bid": 16000099,
+      "name_en": "PIERCE",
+      "name_cn": "PIERCE",
+      "rarity": "Legendary",
+      "color": "#fff11e",
+      "image_url": "/assets/brawlers/16000099.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000099.png"
+    },
+    {
+      "bid": 16000094,
+      "name_en": "KAZE",
+      "name_cn": "KAZE",
+      "rarity": "Common",
+      "color": "#f88f25",
+      "image_url": "/assets/brawlers/16000094.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000094.png"
+    },
+    {
+      "bid": 16000102,
+      "name_en": "SIRIUS",
+      "name_cn": "SIRIUS",
+      "rarity": "Common",
+      "color": "#f88f25",
+      "image_url": "/assets/brawlers/16000102.webp",
+      "remote_url": "https://brawlify.com/images/brawlers/16000102.png"
+    }
+  ],
+  "maps": [
+    {
+      "mid": "15001145",
+      "name": "Makeshift Scaffolding",
+      "image_url": "/assets/maps/15001145.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001145.png"
+    },
+    {
+      "mid": "15000946",
+      "name": "Skull Creek",
+      "image_url": "/assets/maps/15000946.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000946.png"
+    },
+    {
+      "mid": "15000970",
+      "name": "Safety Center",
+      "image_url": "/assets/maps/15000970.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000970.png"
+    },
+    {
+      "mid": "15001110",
+      "name": "Twisting Vines",
+      "image_url": "/assets/maps/15001110.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001110.png"
+    },
+    {
+      "mid": "15001182",
+      "name": "North Park Station",
+      "image_url": "/assets/maps/15001182.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001182.png"
+    },
+    {
+      "mid": "15000992",
+      "name": "Lilypond Grove",
+      "image_url": "/assets/maps/15000992.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000992.png"
+    },
+    {
+      "mid": "15000961",
+      "name": "Flying Fantasies",
+      "image_url": "/assets/maps/15000961.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000961.png"
+    },
+    {
+      "mid": "15000952",
+      "name": "Feast or Famine",
+      "image_url": "/assets/maps/15000952.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000952.png"
+    },
+    {
+      "mid": "15001142",
+      "name": "Kroket",
+      "image_url": "/assets/maps/15001142.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001142.png"
+    },
+    {
+      "mid": "15001218",
+      "name": "Starfruit Supernova",
+      "image_url": "/assets/maps/15001218.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001218.png"
+    },
+    {
+      "mid": "15000955",
+      "name": "Cavern Churn",
+      "image_url": "/assets/maps/15000955.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000955.png"
+    },
+    {
+      "mid": "15001144",
+      "name": "Gated Community",
+      "image_url": "/assets/maps/15001144.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001144.png"
+    },
+    {
+      "mid": "15000958",
+      "name": "Acid Lakes",
+      "image_url": "/assets/maps/15000958.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000958.png"
+    },
+    {
+      "mid": "15001014",
+      "name": "Crystal Eye Castle",
+      "image_url": "/assets/maps/15001014.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001014.png"
+    },
+    {
+      "mid": "15001143",
+      "name": "Lotus",
+      "image_url": "/assets/maps/15001143.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001143.png"
+    },
+    {
+      "mid": "15000989",
+      "name": "Core of Orbit",
+      "image_url": "/assets/maps/15000989.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000989.png"
+    },
+    {
+      "mid": "15000967",
+      "name": "Double Trouble",
+      "image_url": "/assets/maps/15000967.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000967.png"
+    },
+    {
+      "mid": "15001215",
+      "name": "Molten to the Core",
+      "image_url": "/assets/maps/15001215.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001215.png"
+    },
+    {
+      "mid": "15000796",
+      "name": "Ring 'o Brawlin",
+      "image_url": "/assets/maps/15000796.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000796.png"
+    },
+    {
+      "mid": "15000949",
+      "name": "Rockwall Brawl",
+      "image_url": "/assets/maps/15000949.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000949.png"
+    },
+    {
+      "mid": "15001017",
+      "name": "Seeker",
+      "image_url": "/assets/maps/15001017.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001017.png"
+    },
+    {
+      "mid": "15000751",
+      "name": "Skull Creek",
+      "image_url": "/assets/maps/15000751.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000751.png"
+    },
+    {
+      "mid": "15001109",
+      "name": "Truth",
+      "image_url": "/assets/maps/15001109.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001109.png"
+    },
+    {
+      "mid": "15000986",
+      "name": "Waveform",
+      "image_url": "/assets/maps/15000986.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000986.png"
+    },
+    {
+      "mid": "15001141",
+      "name": "Makeshift Scaffolding",
+      "image_url": "/assets/maps/15001141.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001141.png"
+    },
+    {
+      "mid": "15000945",
+      "name": "Skull Creek",
+      "image_url": "/assets/maps/15000945.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000945.png"
+    },
+    {
+      "mid": "15000969",
+      "name": "Safety Center",
+      "image_url": "/assets/maps/15000969.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000969.png"
+    },
+    {
+      "mid": "15001108",
+      "name": "Twisting Vines",
+      "image_url": "/assets/maps/15001108.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001108.png"
+    },
+    {
+      "mid": "15001181",
+      "name": "North Park Station",
+      "image_url": "/assets/maps/15001181.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001181.png"
+    },
+    {
+      "mid": "15000991",
+      "name": "Lilypond Grove",
+      "image_url": "/assets/maps/15000991.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000991.png"
+    },
+    {
+      "mid": "15000960",
+      "name": "Flying Fantasies",
+      "image_url": "/assets/maps/15000960.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000960.png"
+    },
+    {
+      "mid": "15000951",
+      "name": "Feast or Famine",
+      "image_url": "/assets/maps/15000951.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000951.png"
+    },
+    {
+      "mid": "15001138",
+      "name": "Kroket",
+      "image_url": "/assets/maps/15001138.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001138.png"
+    },
+    {
+      "mid": "15001217",
+      "name": "Starfruit Supernova",
+      "image_url": "/assets/maps/15001217.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001217.png"
+    },
+    {
+      "mid": "15000954",
+      "name": "Cavern Churn",
+      "image_url": "/assets/maps/15000954.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000954.png"
+    },
+    {
+      "mid": "15001140",
+      "name": "Gated Community",
+      "image_url": "/assets/maps/15001140.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001140.png"
+    },
+    {
+      "mid": "15000957",
+      "name": "Acid Lakes",
+      "image_url": "/assets/maps/15000957.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000957.png"
+    },
+    {
+      "mid": "15001013",
+      "name": "Crystal Eye Castle",
+      "image_url": "/assets/maps/15001013.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001013.png"
+    },
+    {
+      "mid": "15001139",
+      "name": "Lotus",
+      "image_url": "/assets/maps/15001139.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001139.png"
+    },
+    {
+      "mid": "15000988",
+      "name": "Core of Orbit",
+      "image_url": "/assets/maps/15000988.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000988.png"
+    },
+    {
+      "mid": "15000966",
+      "name": "Double Trouble",
+      "image_url": "/assets/maps/15000966.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000966.png"
+    },
+    {
+      "mid": "15000777",
+      "name": "Final Four",
+      "image_url": "/assets/maps/15000777.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000777.png"
+    },
+    {
+      "mid": "15001214",
+      "name": "Molten to the Core",
+      "image_url": "/assets/maps/15001214.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001214.png"
+    },
+    {
+      "mid": "15000948",
+      "name": "Rockwall Brawl",
+      "image_url": "/assets/maps/15000948.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000948.png"
+    },
+    {
+      "mid": "15001016",
+      "name": "Seeker",
+      "image_url": "/assets/maps/15001016.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001016.png"
+    },
+    {
+      "mid": "15001107",
+      "name": "Truth",
+      "image_url": "/assets/maps/15001107.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001107.png"
+    },
+    {
+      "mid": "15000985",
+      "name": "Waveform",
+      "image_url": "/assets/maps/15000985.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000985.png"
+    },
+    {
+      "mid": "15001205",
+      "name": "No Good Deed",
+      "image_url": "/assets/maps/15001205.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001205.png"
+    },
+    {
+      "mid": "15000143",
+      "name": "Beach Ball",
+      "image_url": "/assets/maps/15000143.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000143.png"
+    },
+    {
+      "mid": "15000024",
+      "name": "Backyard Bowl",
+      "image_url": "/assets/maps/15000024.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000024.png"
+    },
+    {
+      "mid": "15000025",
+      "name": "Triple Dribble",
+      "image_url": "/assets/maps/15000025.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000025.png"
+    },
+    {
+      "mid": "15001204",
+      "name": "Goalies",
+      "image_url": "/assets/maps/15001204.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001204.png"
+    },
+    {
+      "mid": "15000051",
+      "name": "Super Beach",
+      "image_url": "/assets/maps/15000051.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000051.png"
+    },
+    {
+      "mid": "15000144",
+      "name": "Sunny Soccer",
+      "image_url": "/assets/maps/15000144.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000144.png"
+    },
+    {
+      "mid": "15000050",
+      "name": "Sneaky Fields",
+      "image_url": "/assets/maps/15000050.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000050.png"
+    },
+    {
+      "mid": "15001053",
+      "name": "Sidetrack",
+      "image_url": "/assets/maps/15001053.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001053.png"
+    },
+    {
+      "mid": "15000259",
+      "name": "Super Beach",
+      "image_url": "/assets/maps/15000259.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000259.png"
+    },
+    {
+      "mid": "15001168",
+      "name": "Nutmeg",
+      "image_url": "/assets/maps/15001168.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001168.png"
+    },
+    {
+      "mid": "15001167",
+      "name": "Singed Earth",
+      "image_url": "/assets/maps/15001167.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001167.png"
+    },
+    {
+      "mid": "15000026",
+      "name": "Pinhole Punt",
+      "image_url": "/assets/maps/15000026.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000026.png"
+    },
+    {
+      "mid": "15000118",
+      "name": "Pinball Dreams",
+      "image_url": "/assets/maps/15000118.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000118.png"
+    },
+    {
+      "mid": "15001021",
+      "name": "Spiraling Out",
+      "image_url": "/assets/maps/15001021.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001021.png"
+    },
+    {
+      "mid": "15001020",
+      "name": "Grass Knot",
+      "image_url": "/assets/maps/15001020.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001020.png"
+    },
+    {
+      "mid": "15001054",
+      "name": "Match 1123581321",
+      "image_url": "/assets/maps/15001054.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001054.png"
+    },
+    {
+      "mid": "15000132",
+      "name": "Center Stage",
+      "image_url": "/assets/maps/15000132.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000132.png"
+    },
+    {
+      "mid": "15001093",
+      "name": "Flute Chutes",
+      "image_url": "/assets/maps/15001093.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001093.png"
+    },
+    {
+      "mid": "15001094",
+      "name": "Grab the Moment",
+      "image_url": "/assets/maps/15001094.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001094.png"
+    },
+    {
+      "mid": "15000928",
+      "name": "Priceless Cactus",
+      "image_url": "/assets/maps/15000928.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000928.png"
+    },
+    {
+      "mid": "15000929",
+      "name": "Rooftop Runners",
+      "image_url": "/assets/maps/15000929.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000929.png"
+    },
+    {
+      "mid": "15001122",
+      "name": "Makeshift Scaffolding",
+      "image_url": "/assets/maps/15001122.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001122.png"
+    },
+    {
+      "mid": "15000959",
+      "name": "Flying Fantasies",
+      "image_url": "/assets/maps/15000959.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000959.png"
+    },
+    {
+      "mid": "15000944",
+      "name": "Skull Creek",
+      "image_url": "/assets/maps/15000944.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000944.png"
+    },
+    {
+      "mid": "15000968",
+      "name": "Safety Center",
+      "image_url": "/assets/maps/15000968.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000968.png"
+    },
+    {
+      "mid": "15001088",
+      "name": "Twisting Vines",
+      "image_url": "/assets/maps/15001088.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001088.png"
+    },
+    {
+      "mid": "15001180",
+      "name": "North Park Station",
+      "image_url": "/assets/maps/15001180.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001180.png"
+    },
+    {
+      "mid": "15000990",
+      "name": "Lilypond Grove",
+      "image_url": "/assets/maps/15000990.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000990.png"
+    },
+    {
+      "mid": "15000950",
+      "name": "Feast or Famine",
+      "image_url": "/assets/maps/15000950.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000950.png"
+    },
+    {
+      "mid": "15001119",
+      "name": "Kroket",
+      "image_url": "/assets/maps/15001119.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001119.png"
+    },
+    {
+      "mid": "15001216",
+      "name": "Starfruit Supernova",
+      "image_url": "/assets/maps/15001216.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001216.png"
+    },
+    {
+      "mid": "15000953",
+      "name": "Cavern Churn",
+      "image_url": "/assets/maps/15000953.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000953.png"
+    },
+    {
+      "mid": "15001121",
+      "name": "Gated Community",
+      "image_url": "/assets/maps/15001121.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001121.png"
+    },
+    {
+      "mid": "15000956",
+      "name": "Acid Lakes",
+      "image_url": "/assets/maps/15000956.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000956.png"
+    },
+    {
+      "mid": "15001012",
+      "name": "Crystal Eye Castle",
+      "image_url": "/assets/maps/15001012.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001012.png"
+    },
+    {
+      "mid": "15001120",
+      "name": "Lotus",
+      "image_url": "/assets/maps/15001120.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001120.png"
+    },
+    {
+      "mid": "15000987",
+      "name": "Core of Orbit",
+      "image_url": "/assets/maps/15000987.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000987.png"
+    },
+    {
+      "mid": "15000965",
+      "name": "Double Trouble",
+      "image_url": "/assets/maps/15000965.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000965.png"
+    },
+    {
+      "mid": "15001213",
+      "name": "Molten to the Core",
+      "image_url": "/assets/maps/15001213.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001213.png"
+    },
+    {
+      "mid": "15000947",
+      "name": "Rockwall Brawl",
+      "image_url": "/assets/maps/15000947.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000947.png"
+    },
+    {
+      "mid": "15001015",
+      "name": "Seeker",
+      "image_url": "/assets/maps/15001015.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001015.png"
+    },
+    {
+      "mid": "15001087",
+      "name": "Truth",
+      "image_url": "/assets/maps/15001087.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001087.png"
+    },
+    {
+      "mid": "15000984",
+      "name": "Waveform",
+      "image_url": "/assets/maps/15000984.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000984.png"
+    },
+    {
+      "mid": "15001127",
+      "name": "Chivalry",
+      "image_url": "/assets/maps/15001127.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001127.png"
+    },
+    {
+      "mid": "15000528",
+      "name": "New Perspective",
+      "image_url": "/assets/maps/15000528.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000528.png"
+    },
+    {
+      "mid": "15001018",
+      "name": "Double Decker",
+      "image_url": "/assets/maps/15001018.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001018.png"
+    },
+    {
+      "mid": "15000581",
+      "name": "Healthy Middle Ground",
+      "image_url": "/assets/maps/15000581.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000581.png"
+    },
+    {
+      "mid": "15001179",
+      "name": "Pinned Down",
+      "image_url": "/assets/maps/15001179.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001179.png"
+    },
+    {
+      "mid": "15001019",
+      "name": "Streets with No Name",
+      "image_url": "/assets/maps/15001019.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001019.png"
+    },
+    {
+      "mid": "15000734",
+      "name": "Four Levels",
+      "image_url": "/assets/maps/15000734.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000734.png"
+    },
+    {
+      "mid": "15001211",
+      "name": "Crab Claws",
+      "image_url": "/assets/maps/15001211.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001211.png"
+    },
+    {
+      "mid": "15000548",
+      "name": "Out in the Open",
+      "image_url": "/assets/maps/15000548.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000548.png"
+    },
+    {
+      "mid": "15001210",
+      "name": "Opening Move",
+      "image_url": "/assets/maps/15001210.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001210.png"
+    },
+    {
+      "mid": "15000502",
+      "name": "Flowing Springs",
+      "image_url": "/assets/maps/15000502.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000502.png"
+    },
+    {
+      "mid": "15000368",
+      "name": "Belle's Rock",
+      "image_url": "/assets/maps/15000368.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000368.png"
+    },
+    {
+      "mid": "15000440",
+      "name": "Flaring Phoenix",
+      "image_url": "/assets/maps/15000440.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000440.png"
+    },
+    {
+      "mid": "15000367",
+      "name": "Goldarm Gulch",
+      "image_url": "/assets/maps/15000367.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000367.png"
+    },
+    {
+      "mid": "15001173",
+      "name": "Konnakol",
+      "image_url": "/assets/maps/15001173.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001173.png"
+    },
+    {
+      "mid": "15000703",
+      "name": "New Horizons",
+      "image_url": "/assets/maps/15000703.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000703.png"
+    },
+    {
+      "mid": "15001096",
+      "name": "A Ballad About Minced Cutlets",
+      "image_url": "/assets/maps/15001096.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001096.png"
+    },
+    {
+      "mid": "15001059",
+      "name": "Call of the Water",
+      "image_url": "/assets/maps/15001059.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001059.png"
+    },
+    {
+      "mid": "15000429",
+      "name": "Deep End",
+      "image_url": "/assets/maps/15000429.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000429.png"
+    },
+    {
+      "mid": "15000882",
+      "name": "H for...",
+      "image_url": "/assets/maps/15000882.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000882.png"
+    },
+    {
+      "mid": "15001095",
+      "name": "Party for You",
+      "image_url": "/assets/maps/15001095.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001095.png"
+    },
+    {
+      "mid": "15001058",
+      "name": "Think Ahead",
+      "image_url": "/assets/maps/15001058.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001058.png"
+    },
+    {
+      "mid": "15000008",
+      "name": "Crystal Arcade",
+      "image_url": "/assets/maps/15000008.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000008.png"
+    },
+    {
+      "mid": "15000011",
+      "name": "Undermine",
+      "image_url": "/assets/maps/15000011.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000011.png"
+    },
+    {
+      "mid": "15001209",
+      "name": "Satomi Springs",
+      "image_url": "/assets/maps/15001209.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001209.png"
+    },
+    {
+      "mid": "15000499",
+      "name": "Open Space",
+      "image_url": "/assets/maps/15000499.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000499.png"
+    },
+    {
+      "mid": "15001208",
+      "name": "Picturesque",
+      "image_url": "/assets/maps/15001208.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001208.png"
+    },
+    {
+      "mid": "15001123",
+      "name": "Railroad Robbery",
+      "image_url": "/assets/maps/15001123.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001123.png"
+    },
+    {
+      "mid": "15000115",
+      "name": "Double Swoosh",
+      "image_url": "/assets/maps/15000115.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000115.png"
+    },
+    {
+      "mid": "15001172",
+      "name": "Fortress Fall",
+      "image_url": "/assets/maps/15001172.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001172.png"
+    },
+    {
+      "mid": "15000007",
+      "name": "Hard Rock Mine",
+      "image_url": "/assets/maps/15000007.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000007.png"
+    },
+    {
+      "mid": "15000010",
+      "name": "Gem Fort",
+      "image_url": "/assets/maps/15000010.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000010.png"
+    },
+    {
+      "mid": "15001171",
+      "name": "Snake Pit",
+      "image_url": "/assets/maps/15001171.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001171.png"
+    },
+    {
+      "mid": "15001027",
+      "name": "Storage Sector",
+      "image_url": "/assets/maps/15001027.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001027.png"
+    },
+    {
+      "mid": "15000009",
+      "name": "Deathcap Trap",
+      "image_url": "/assets/maps/15000009.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000009.png"
+    },
+    {
+      "mid": "15001026",
+      "name": "On a Roll",
+      "image_url": "/assets/maps/15001026.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001026.png"
+    },
+    {
+      "mid": "15000343",
+      "name": "Rustic Arcade",
+      "image_url": "/assets/maps/15000343.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000343.png"
+    },
+    {
+      "mid": "15001090",
+      "name": "Afterparty",
+      "image_url": "/assets/maps/15001090.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001090.png"
+    },
+    {
+      "mid": "15001089",
+      "name": "ATLAS",
+      "image_url": "/assets/maps/15001089.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001089.png"
+    },
+    {
+      "mid": "15001052",
+      "name": "Extreme Nonchalance",
+      "image_url": "/assets/maps/15001052.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001052.png"
+    },
+    {
+      "mid": "15000931",
+      "name": "Lilygear Lake",
+      "image_url": "/assets/maps/15000931.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000931.png"
+    },
+    {
+      "mid": "15000932",
+      "name": "Local Restaurants",
+      "image_url": "/assets/maps/15000932.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000932.png"
+    },
+    {
+      "mid": "15001051",
+      "name": "Whisper Vale",
+      "image_url": "/assets/maps/15001051.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001051.png"
+    },
+    {
+      "mid": "15001220",
+      "name": "Hit and Run",
+      "image_url": "/assets/maps/15001220.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001220.png"
+    },
+    {
+      "mid": "15000005",
+      "name": "Shooting Star",
+      "image_url": "/assets/maps/15000005.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000005.png"
+    },
+    {
+      "mid": "15000006",
+      "name": "Outlaw Camp",
+      "image_url": "/assets/maps/15000006.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000006.png"
+    },
+    {
+      "mid": "15000002",
+      "name": "Deathcap Trap",
+      "image_url": "/assets/maps/15000002.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000002.png"
+    },
+    {
+      "mid": "15000001",
+      "name": "Stone Fort",
+      "image_url": "/assets/maps/15000001.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000001.png"
+    },
+    {
+      "mid": "15000000",
+      "name": "Temple Ruins",
+      "image_url": "/assets/maps/15000000.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000000.png"
+    },
+    {
+      "mid": "15000004",
+      "name": "Snake Prairie",
+      "image_url": "/assets/maps/15000004.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000004.png"
+    },
+    {
+      "mid": "15000022",
+      "name": "Hideout",
+      "image_url": "/assets/maps/15000022.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000022.png"
+    },
+    {
+      "mid": "15000083",
+      "name": "Dry Season",
+      "image_url": "/assets/maps/15000083.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000083.png"
+    },
+    {
+      "mid": "15001067",
+      "name": "Starrburst",
+      "image_url": "/assets/maps/15001067.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001067.png"
+    },
+    {
+      "mid": "15001176",
+      "name": "Choral Chambers",
+      "image_url": "/assets/maps/15001176.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001176.png"
+    },
+    {
+      "mid": "15000082",
+      "name": "Layer Cake",
+      "image_url": "/assets/maps/15000082.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000082.png"
+    },
+    {
+      "mid": "15001175",
+      "name": "Wall Hugging",
+      "image_url": "/assets/maps/15001175.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001175.png"
+    },
+    {
+      "mid": "15000935",
+      "name": "Brace for Impact",
+      "image_url": "/assets/maps/15000935.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000935.png"
+    },
+    {
+      "mid": "15000553",
+      "name": "Don't turn around",
+      "image_url": "/assets/maps/15000553.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000553.png"
+    },
+    {
+      "mid": "15000295",
+      "name": "No Excuses",
+      "image_url": "/assets/maps/15000295.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000295.png"
+    },
+    {
+      "mid": "15000554",
+      "name": "Side by Side",
+      "image_url": "/assets/maps/15000554.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000554.png"
+    },
+    {
+      "mid": "15001219",
+      "name": "Watermelons",
+      "image_url": "/assets/maps/15001219.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001219.png"
+    },
+    {
+      "mid": "15001169",
+      "name": "Aridity",
+      "image_url": "/assets/maps/15001169.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001169.png"
+    },
+    {
+      "mid": "15001207",
+      "name": "Perpetual Motion",
+      "image_url": "/assets/maps/15001207.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001207.png"
+    },
+    {
+      "mid": "15001170",
+      "name": "Quintillion",
+      "image_url": "/assets/maps/15001170.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001170.png"
+    },
+    {
+      "mid": "15000077",
+      "name": "Bridge Too Far",
+      "image_url": "/assets/maps/15000077.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000077.png"
+    },
+    {
+      "mid": "15000053",
+      "name": "Hot Potato",
+      "image_url": "/assets/maps/15000053.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000053.png"
+    },
+    {
+      "mid": "15000019",
+      "name": "Safe Zone",
+      "image_url": "/assets/maps/15000019.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000019.png"
+    },
+    {
+      "mid": "15001099",
+      "name": "Photic Doom",
+      "image_url": "/assets/maps/15001099.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001099.png"
+    },
+    {
+      "mid": "15000900",
+      "name": "GG 2.0",
+      "image_url": "/assets/maps/15000900.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000900.png"
+    },
+    {
+      "mid": "15001098",
+      "name": "All Things Wicked",
+      "image_url": "/assets/maps/15001098.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001098.png"
+    },
+    {
+      "mid": "15000072",
+      "name": "Bridge Too Far",
+      "image_url": "/assets/maps/15000072.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000072.png"
+    },
+    {
+      "mid": "15001063",
+      "name": "Corner Cave",
+      "image_url": "/assets/maps/15001063.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001063.png"
+    },
+    {
+      "mid": "15000018",
+      "name": "Kaboom Canyon",
+      "image_url": "/assets/maps/15000018.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000018.png"
+    },
+    {
+      "mid": "15000137",
+      "name": "Pit Stop",
+      "image_url": "/assets/maps/15000137.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000137.png"
+    },
+    {
+      "mid": "15000933",
+      "name": "Plain Text",
+      "image_url": "/assets/maps/15000933.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000933.png"
+    },
+    {
+      "mid": "15001024",
+      "name": "Subway Turfers",
+      "image_url": "/assets/maps/15001024.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001024.png"
+    },
+    {
+      "mid": "15001206",
+      "name": "Tuning Fork",
+      "image_url": "/assets/maps/15001206.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001206.png"
+    },
+    {
+      "mid": "15001062",
+      "name": "Zip Zap Zoom",
+      "image_url": "/assets/maps/15001062.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001062.png"
+    },
+    {
+      "mid": "15001202",
+      "name": "Golden Bay",
+      "image_url": "/assets/maps/15001202.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001202.png"
+    },
+    {
+      "mid": "15000306",
+      "name": "Dueling Beetles",
+      "image_url": "/assets/maps/15000306.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000306.png"
+    },
+    {
+      "mid": "15000292",
+      "name": "Open Business",
+      "image_url": "/assets/maps/15000292.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000292.png"
+    },
+    {
+      "mid": "15000293",
+      "name": "Parallel Plays",
+      "image_url": "/assets/maps/15000293.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000293.png"
+    },
+    {
+      "mid": "15001203",
+      "name": "Hyacinth House",
+      "image_url": "/assets/maps/15001203.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001203.png"
+    },
+    {
+      "mid": "15001165",
+      "name": "Tax Evasion",
+      "image_url": "/assets/maps/15001165.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001165.png"
+    },
+    {
+      "mid": "15001057",
+      "name": "Playmaker",
+      "image_url": "/assets/maps/15001057.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001057.png"
+    },
+    {
+      "mid": "15001166",
+      "name": "The Seven Pillars of Humanity",
+      "image_url": "/assets/maps/15001166.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001166.png"
+    },
+    {
+      "mid": "15001022",
+      "name": "Abracadabra",
+      "image_url": "/assets/maps/15001022.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001022.png"
+    },
+    {
+      "mid": "15001092",
+      "name": "Back Shuffle",
+      "image_url": "/assets/maps/15001092.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001092.png"
+    },
+    {
+      "mid": "15000927",
+      "name": "Fishing Bed",
+      "image_url": "/assets/maps/15000927.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000927.png"
+    },
+    {
+      "mid": "15001023",
+      "name": "In the Liminal",
+      "image_url": "/assets/maps/15001023.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001023.png"
+    },
+    {
+      "mid": "15001091",
+      "name": "Just Another Race To Anywhere",
+      "image_url": "/assets/maps/15001091.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001091.png"
+    },
+    {
+      "mid": "15000527",
+      "name": "Open Zone",
+      "image_url": "/assets/maps/15000527.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000527.png"
+    },
+    {
+      "mid": "15000300",
+      "name": "Ring of Fire",
+      "image_url": "/assets/maps/15000300.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000300.png"
+    },
+    {
+      "mid": "15001126",
+      "name": "Ticket to Die",
+      "image_url": "/assets/maps/15001126.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001126.png"
+    },
+    {
+      "mid": "15001125",
+      "name": "Zone Splitting",
+      "image_url": "/assets/maps/15001125.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001125.png"
+    },
+    {
+      "mid": "15000916",
+      "name": "Ancient Treasure",
+      "image_url": "/assets/maps/15000916.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000916.png"
+    },
+    {
+      "mid": "15000924",
+      "name": "Brawl Starrgate",
+      "image_url": "/assets/maps/15000924.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000924.png"
+    },
+    {
+      "mid": "15000918",
+      "name": "Can You Dig It",
+      "image_url": "/assets/maps/15000918.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000918.png"
+    },
+    {
+      "mid": "15000917",
+      "name": "Excellent Excavations",
+      "image_url": "/assets/maps/15000917.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000917.png"
+    },
+    {
+      "mid": "15000911",
+      "name": "Hidden in Plain Sight",
+      "image_url": "/assets/maps/15000911.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000911.png"
+    },
+    {
+      "mid": "15001199",
+      "name": "Huddle Puddle",
+      "image_url": "/assets/maps/15001199.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001199.png"
+    },
+    {
+      "mid": "15001193",
+      "name": "Less is More",
+      "image_url": "/assets/maps/15001193.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001193.png"
+    },
+    {
+      "mid": "15000914",
+      "name": "Middle Management",
+      "image_url": "/assets/maps/15000914.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000914.png"
+    },
+    {
+      "mid": "15001198",
+      "name": "Side Quests",
+      "image_url": "/assets/maps/15001198.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001198.png"
+    },
+    {
+      "mid": "15001192",
+      "name": "Train Erasure",
+      "image_url": "/assets/maps/15001192.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001192.png"
+    },
+    {
+      "mid": "15000915",
+      "name": "Treasure Marks the Spot",
+      "image_url": "/assets/maps/15000915.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000915.png"
+    },
+    {
+      "mid": "15001097",
+      "name": "The Great Mighty Lou",
+      "image_url": "/assets/maps/15001097.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001097.png"
+    },
+    {
+      "mid": "15000460",
+      "name": "No Surrender",
+      "image_url": "/assets/maps/15000460.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000460.png"
+    },
+    {
+      "mid": "15001060",
+      "name": "Coin Flip",
+      "image_url": "/assets/maps/15001060.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001060.png"
+    },
+    {
+      "mid": "15001212",
+      "name": "Jumpscare Lair",
+      "image_url": "/assets/maps/15001212.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001212.png"
+    },
+    {
+      "mid": "15000459",
+      "name": "Flaring Phoenix",
+      "image_url": "/assets/maps/15000459.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000459.png"
+    },
+    {
+      "mid": "15001061",
+      "name": "Search and Destroy",
+      "image_url": "/assets/maps/15001061.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001061.png"
+    },
+    {
+      "mid": "15001174",
+      "name": "Paralysis Pen",
+      "image_url": "/assets/maps/15001174.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001174.png"
+    },
+    {
+      "mid": "15000461",
+      "name": "Shrouding Serpent",
+      "image_url": "/assets/maps/15000461.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000461.png"
+    },
+    {
+      "mid": "15000468",
+      "name": "Monkey Maze",
+      "image_url": "/assets/maps/15000468.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000468.png"
+    },
+    {
+      "mid": "15000463",
+      "name": "Warrior's Way",
+      "image_url": "/assets/maps/15000463.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000463.png"
+    },
+    {
+      "mid": "15001164",
+      "name": "Too Gimmicky 2",
+      "image_url": "/assets/maps/15001164.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001164.png"
+    },
+    {
+      "mid": "15001163",
+      "name": "WALKING ON HOT SAND",
+      "image_url": "/assets/maps/15001163.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001163.png"
+    },
+    {
+      "mid": "15001201",
+      "name": "Palette Hangout",
+      "image_url": "/assets/maps/15001201.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001201.png"
+    },
+    {
+      "mid": "15001200",
+      "name": "Hello Always Ends With a Goodbye",
+      "image_url": "/assets/maps/15001200.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001200.png"
+    },
+    {
+      "mid": "15001105",
+      "name": "Pound of Mass",
+      "image_url": "/assets/maps/15001105.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001105.png"
+    },
+    {
+      "mid": "15001104",
+      "name": "Deathmatch",
+      "image_url": "/assets/maps/15001104.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001104.png"
+    },
+    {
+      "mid": "15001103",
+      "name": "Catacombs",
+      "image_url": "/assets/maps/15001103.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001103.png"
+    },
+    {
+      "mid": "15001056",
+      "name": "Time Flies",
+      "image_url": "/assets/maps/15001056.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001056.png"
+    },
+    {
+      "mid": "15001055",
+      "name": "Twentyfive to Two",
+      "image_url": "/assets/maps/15001055.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001055.png"
+    },
+    {
+      "mid": "15001106",
+      "name": "Wonderland",
+      "image_url": "/assets/maps/15001106.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001106.png"
+    },
+    {
+      "mid": "15001177",
+      "name": "H is for Holiday",
+      "image_url": "/assets/maps/15001177.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001177.png"
+    },
+    {
+      "mid": "15000851",
+      "name": "Slippery Slap",
+      "image_url": "/assets/maps/15000851.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000851.png"
+    },
+    {
+      "mid": "15000853",
+      "name": "Below Zero",
+      "image_url": "/assets/maps/15000853.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000853.png"
+    },
+    {
+      "mid": "15000852",
+      "name": "Bouncy Bowl",
+      "image_url": "/assets/maps/15000852.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000852.png"
+    },
+    {
+      "mid": "15000850",
+      "name": "Super Center",
+      "image_url": "/assets/maps/15000850.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000850.png"
+    },
+    {
+      "mid": "15001222",
+      "name": "Cabin Fever",
+      "image_url": "/assets/maps/15001222.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001222.png"
+    },
+    {
+      "mid": "15001221",
+      "name": "Tip Toe",
+      "image_url": "/assets/maps/15001221.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001221.png"
+    },
+    {
+      "mid": "15001178",
+      "name": "Hyperspace",
+      "image_url": "/assets/maps/15001178.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001178.png"
+    },
+    {
+      "mid": "15000854",
+      "name": "Cool Box",
+      "image_url": "/assets/maps/15000854.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000854.png"
+    },
+    {
+      "mid": "15000855",
+      "name": "Starr Garden",
+      "image_url": "/assets/maps/15000855.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000855.png"
+    },
+    {
+      "mid": "15000829",
+      "name": "Abyssal Assault",
+      "image_url": "/assets/maps/15000829.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000829.png"
+    },
+    {
+      "mid": "15000828",
+      "name": "Celestial Crusade",
+      "image_url": "/assets/maps/15000828.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000828.png"
+    },
+    {
+      "mid": "15000824",
+      "name": "Divine Descent",
+      "image_url": "/assets/maps/15000824.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000824.png"
+    },
+    {
+      "mid": "15000826",
+      "name": "Final Frontier",
+      "image_url": "/assets/maps/15000826.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000826.png"
+    },
+    {
+      "mid": "15000825",
+      "name": "Hellish Harvest",
+      "image_url": "/assets/maps/15000825.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000825.png"
+    },
+    {
+      "mid": "15000827",
+      "name": "Infernal Invasion",
+      "image_url": "/assets/maps/15000827.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000827.png"
+    },
+    {
+      "mid": "15000830",
+      "name": "Radiant Rampage",
+      "image_url": "/assets/maps/15000830.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000830.png"
+    },
+    {
+      "mid": "15000831",
+      "name": "Underworld Uprising",
+      "image_url": "/assets/maps/15000831.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000831.png"
+    },
+    {
+      "mid": "15001102",
+      "name": "Journey of a Thousand Steps",
+      "image_url": "/assets/maps/15001102.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001102.png"
+    },
+    {
+      "mid": "15001101",
+      "name": "Crescendo",
+      "image_url": "/assets/maps/15001101.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001101.png"
+    },
+    {
+      "mid": "15001162",
+      "name": "Rastermind",
+      "image_url": "/assets/maps/15001162.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001162.png"
+    },
+    {
+      "mid": "15001047",
+      "name": "Brawlerverse",
+      "image_url": "/assets/maps/15001047.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001047.png"
+    },
+    {
+      "mid": "15001100",
+      "name": "Serpentshrine Island",
+      "image_url": "/assets/maps/15001100.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001100.png"
+    },
+    {
+      "mid": "15000975",
+      "name": "Survival of the Meanest",
+      "image_url": "/assets/maps/15000975.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000975.png"
+    },
+    {
+      "mid": "15001048",
+      "name": "The Emptiness Machine",
+      "image_url": "/assets/maps/15001048.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001048.png"
+    },
+    {
+      "mid": "15000923",
+      "name": "Unhappy Arena",
+      "image_url": "/assets/maps/15000923.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000923.png"
+    },
+    {
+      "mid": "15001076",
+      "name": "1-2-3 Play",
+      "image_url": "/assets/maps/15001076.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001076.png"
+    },
+    {
+      "mid": "15001084",
+      "name": "Crazy for Credits",
+      "image_url": "/assets/maps/15001084.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001084.png"
+    },
+    {
+      "mid": "15001074",
+      "name": "Insert Victory",
+      "image_url": "/assets/maps/15001074.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001074.png"
+    },
+    {
+      "mid": "15001075",
+      "name": "Invaded Space",
+      "image_url": "/assets/maps/15001075.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001075.png"
+    },
+    {
+      "mid": "15001077",
+      "name": "Prize Pushing",
+      "image_url": "/assets/maps/15001077.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001077.png"
+    },
+    {
+      "mid": "15000912",
+      "name": "Reverse Crossing",
+      "image_url": "/assets/maps/15000912.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000912.png"
+    },
+    {
+      "mid": "15000913",
+      "name": "Skipyard",
+      "image_url": "/assets/maps/15000913.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000913.png"
+    },
+    {
+      "mid": "15000909",
+      "name": "Wild Greens",
+      "image_url": "/assets/maps/15000909.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000909.png"
+    },
+    {
+      "mid": "15000386",
+      "name": "Pocket Pass",
+      "image_url": "/assets/maps/15000386.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000386.png"
+    },
+    {
+      "mid": "15000390",
+      "name": "Triple-Double",
+      "image_url": "/assets/maps/15000390.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000390.png"
+    },
+    {
+      "mid": "15000389",
+      "name": "Slam Dunk",
+      "image_url": "/assets/maps/15000389.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000389.png"
+    },
+    {
+      "mid": "15000387",
+      "name": "Turnover",
+      "image_url": "/assets/maps/15000387.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000387.png"
+    },
+    {
+      "mid": "15000388",
+      "name": "Alley Oop",
+      "image_url": "/assets/maps/15000388.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000388.png"
+    },
+    {
+      "mid": "15000384",
+      "name": "Ball Hog",
+      "image_url": "/assets/maps/15000384.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000384.png"
+    },
+    {
+      "mid": "15000385",
+      "name": "Reversal",
+      "image_url": "/assets/maps/15000385.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000385.png"
+    },
+    {
+      "mid": "15000378",
+      "name": "Block Party",
+      "image_url": "/assets/maps/15000378.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000378.png"
+    },
+    {
+      "mid": "15000383",
+      "name": "Floater",
+      "image_url": "/assets/maps/15000383.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000383.png"
+    },
+    {
+      "mid": "15000382",
+      "name": "Jungle Ball",
+      "image_url": "/assets/maps/15000382.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000382.png"
+    },
+    {
+      "mid": "15000381",
+      "name": "Pancake",
+      "image_url": "/assets/maps/15000381.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000381.png"
+    },
+    {
+      "mid": "15000379",
+      "name": "Power Alley",
+      "image_url": "/assets/maps/15000379.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000379.png"
+    },
+    {
+      "mid": "15000380",
+      "name": "Strong Side",
+      "image_url": "/assets/maps/15000380.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000380.png"
+    },
+    {
+      "mid": "15000377",
+      "name": "Tiger Leap",
+      "image_url": "/assets/maps/15000377.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000377.png"
+    },
+    {
+      "mid": "15000646",
+      "name": "Icy ice park",
+      "image_url": "/assets/maps/15000646.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000646.png"
+    },
+    {
+      "mid": "15000645",
+      "name": "Slippery road",
+      "image_url": "/assets/maps/15000645.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000645.png"
+    },
+    {
+      "mid": "15000647",
+      "name": "Frosty tracks",
+      "image_url": "/assets/maps/15000647.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000647.png"
+    },
+    {
+      "mid": "15000920",
+      "name": "Big Battle Basin",
+      "image_url": "/assets/maps/15000920.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000920.png"
+    },
+    {
+      "mid": "15001049",
+      "name": "Hee Hee",
+      "image_url": "/assets/maps/15001049.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001049.png"
+    },
+    {
+      "mid": "15001050",
+      "name": "Island Of Finality",
+      "image_url": "/assets/maps/15001050.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001050.png"
+    },
+    {
+      "mid": "15000973",
+      "name": "Mirages of Madness",
+      "image_url": "/assets/maps/15000973.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000973.png"
+    },
+    {
+      "mid": "15001086",
+      "name": "Dodge or Die",
+      "image_url": "/assets/maps/15001086.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001086.png"
+    },
+    {
+      "mid": "15001033",
+      "name": "Hug or Hurl",
+      "image_url": "/assets/maps/15001033.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001033.png"
+    },
+    {
+      "mid": "15001029",
+      "name": "Moonbark Meadow",
+      "image_url": "/assets/maps/15001029.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001029.png"
+    },
+    {
+      "mid": "15001032",
+      "name": "Rebound Ring",
+      "image_url": "/assets/maps/15001032.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001032.png"
+    },
+    {
+      "mid": "15001038",
+      "name": "Side Hustle",
+      "image_url": "/assets/maps/15001038.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001038.png"
+    },
+    {
+      "mid": "15001039",
+      "name": "Squish Court",
+      "image_url": "/assets/maps/15001039.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001039.png"
+    },
+    {
+      "mid": "15001040",
+      "name": "Wispwillow Ward",
+      "image_url": "/assets/maps/15001040.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001040.png"
+    },
+    {
+      "mid": "15001070",
+      "name": "Backtrack Attack",
+      "image_url": "/assets/maps/15001070.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001070.png"
+    },
+    {
+      "mid": "15001073",
+      "name": "Choo Choo Showdown",
+      "image_url": "/assets/maps/15001073.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001073.png"
+    },
+    {
+      "mid": "15001071",
+      "name": "Loopy Line",
+      "image_url": "/assets/maps/15001071.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001071.png"
+    },
+    {
+      "mid": "15001069",
+      "name": "Metro Mayhem",
+      "image_url": "/assets/maps/15001069.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001069.png"
+    },
+    {
+      "mid": "15001085",
+      "name": "T-Rail Rush",
+      "image_url": "/assets/maps/15001085.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001085.png"
+    },
+    {
+      "mid": "15001042",
+      "name": "Toot Town",
+      "image_url": "/assets/maps/15001042.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001042.png"
+    },
+    {
+      "mid": "15001072",
+      "name": "Trainbow Road",
+      "image_url": "/assets/maps/15001072.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001072.png"
+    },
+    {
+      "mid": "15000823",
+      "name": "Afterpiece Arena",
+      "image_url": "/assets/maps/15000823.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000823.png"
+    },
+    {
+      "mid": "15000820",
+      "name": "Broiler Room",
+      "image_url": "/assets/maps/15000820.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000820.png"
+    },
+    {
+      "mid": "15000819",
+      "name": "Foursquare Fortress",
+      "image_url": "/assets/maps/15000819.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000819.png"
+    },
+    {
+      "mid": "15000821",
+      "name": "Hoop Boot Hill",
+      "image_url": "/assets/maps/15000821.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000821.png"
+    },
+    {
+      "mid": "15000822",
+      "name": "Kooky Gates",
+      "image_url": "/assets/maps/15000822.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000822.png"
+    },
+    {
+      "mid": "15000753",
+      "name": "Paperback Pond",
+      "image_url": "/assets/maps/15000753.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000753.png"
+    },
+    {
+      "mid": "15001196",
+      "name": "Cavern Churn",
+      "image_url": "/assets/maps/15001196.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001196.png"
+    },
+    {
+      "mid": "15001197",
+      "name": "Hot Maze",
+      "image_url": "/assets/maps/15001197.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001197.png"
+    },
+    {
+      "mid": "15001227",
+      "name": "Molten to the Core",
+      "image_url": "/assets/maps/15001227.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001227.png"
+    },
+    {
+      "mid": "15001195",
+      "name": "Rockwall Brawl",
+      "image_url": "/assets/maps/15001195.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001195.png"
+    },
+    {
+      "mid": "15001194",
+      "name": "Skull Creek",
+      "image_url": "/assets/maps/15001194.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001194.png"
+    },
+    {
+      "mid": "15001228",
+      "name": "Starfruit Supernova",
+      "image_url": "/assets/maps/15001228.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001228.png"
+    },
+    {
+      "mid": "15001030",
+      "name": "Case of the Mondays",
+      "image_url": "/assets/maps/15001030.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001030.png"
+    },
+    {
+      "mid": "15001031",
+      "name": "Jump to Conclusions",
+      "image_url": "/assets/maps/15001031.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001031.png"
+    },
+    {
+      "mid": "15001068",
+      "name": "Million Dollars",
+      "image_url": "/assets/maps/15001068.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001068.png"
+    },
+    {
+      "mid": "15001037",
+      "name": "Paper Jam",
+      "image_url": "/assets/maps/15001037.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001037.png"
+    },
+    {
+      "mid": "15001036",
+      "name": "Thin Walls",
+      "image_url": "/assets/maps/15001036.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001036.png"
+    },
+    {
+      "mid": "15001064",
+      "name": "Knockout Grounds",
+      "image_url": "/assets/maps/15001064.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001064.png"
+    },
+    {
+      "mid": "15000993",
+      "name": "Kaiju Lake",
+      "image_url": "/assets/maps/15000993.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000993.png"
+    },
+    {
+      "mid": "15000997",
+      "name": "Mirage Arena",
+      "image_url": "/assets/maps/15000997.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000997.png"
+    },
+    {
+      "mid": "15000996",
+      "name": "Arena of Glory",
+      "image_url": "/assets/maps/15000996.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000996.png"
+    },
+    {
+      "mid": "15001065",
+      "name": "The Smackdome",
+      "image_url": "/assets/maps/15001065.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001065.png"
+    },
+    {
+      "mid": "15001184",
+      "name": "BOSS BRUCE NITA",
+      "image_url": "/assets/maps/15001184.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001184.png"
+    },
+    {
+      "mid": "15001187",
+      "name": "BOSS CROW",
+      "image_url": "/assets/maps/15001187.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001187.png"
+    },
+    {
+      "mid": "15001186",
+      "name": "BOSS DRAGON GRIFF",
+      "image_url": "/assets/maps/15001186.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001186.png"
+    },
+    {
+      "mid": "15001183",
+      "name": "BOSS DRAGON MAISIE",
+      "image_url": "/assets/maps/15001183.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001183.png"
+    },
+    {
+      "mid": "15001185",
+      "name": "BOSS DRAGROM",
+      "image_url": "/assets/maps/15001185.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001185.png"
+    },
+    {
+      "mid": "15001160",
+      "name": "Fast Blast Alley",
+      "image_url": "/assets/maps/15001160.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001160.png"
+    },
+    {
+      "mid": "15001155",
+      "name": "Fuseyard",
+      "image_url": "/assets/maps/15001155.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001155.png"
+    },
+    {
+      "mid": "15001157",
+      "name": "Gunpowder Gangway",
+      "image_url": "/assets/maps/15001157.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001157.png"
+    },
+    {
+      "mid": "15001159",
+      "name": "Safe Bet",
+      "image_url": "/assets/maps/15001159.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001159.png"
+    },
+    {
+      "mid": "15001161",
+      "name": "Violent Withdrawal",
+      "image_url": "/assets/maps/15001161.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001161.png"
+    },
+    {
+      "mid": "15000971",
+      "name": "Siberian Stand Off",
+      "image_url": "/assets/maps/15000971.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000971.png"
+    },
+    {
+      "mid": "15001043",
+      "name": "Insane Streamer",
+      "image_url": "/assets/maps/15001043.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001043.png"
+    },
+    {
+      "mid": "15000919",
+      "name": "Stockpile Stadium",
+      "image_url": "/assets/maps/15000919.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000919.png"
+    },
+    {
+      "mid": "15001044",
+      "name": "Pocket Pleasures",
+      "image_url": "/assets/maps/15001044.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001044.png"
+    },
+    {
+      "mid": "15000979",
+      "name": "Arctic Ambush",
+      "image_url": "/assets/maps/15000979.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000979.png"
+    },
+    {
+      "mid": "15001045",
+      "name": "Cobblestone Swamp",
+      "image_url": "/assets/maps/15001045.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001045.png"
+    },
+    {
+      "mid": "15001046",
+      "name": "Public Transport",
+      "image_url": "/assets/maps/15001046.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001046.png"
+    },
+    {
+      "mid": "15000980",
+      "name": "Treasure Island",
+      "image_url": "/assets/maps/15000980.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000980.png"
+    },
+    {
+      "mid": "15001041",
+      "name": "Cold Snap",
+      "image_url": "/assets/maps/15001041.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001041.png"
+    },
+    {
+      "mid": "15001035",
+      "name": "Frostbite Rink",
+      "image_url": "/assets/maps/15001035.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001035.png"
+    },
+    {
+      "mid": "15001034",
+      "name": "Massive Meltdown",
+      "image_url": "/assets/maps/15001034.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001034.png"
+    },
+    {
+      "mid": "15000925",
+      "name": "Snowcone Square",
+      "image_url": "/assets/maps/15000925.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000925.png"
+    },
+    {
+      "mid": "15001136",
+      "name": "Cold Cash",
+      "image_url": "/assets/maps/15001136.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001136.png"
+    },
+    {
+      "mid": "15001129",
+      "name": "Mine, All Mine",
+      "image_url": "/assets/maps/15001129.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001129.png"
+    },
+    {
+      "mid": "15001128",
+      "name": "Polar Payoff",
+      "image_url": "/assets/maps/15001128.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001128.png"
+    },
+    {
+      "mid": "15001130",
+      "name": "Treasure Pressure",
+      "image_url": "/assets/maps/15001130.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001130.png"
+    },
+    {
+      "mid": "15001113",
+      "name": "Nippy Narrows",
+      "image_url": "/assets/maps/15001113.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001113.png"
+    },
+    {
+      "mid": "15001112",
+      "name": "Overpower Outpost",
+      "image_url": "/assets/maps/15001112.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001112.png"
+    },
+    {
+      "mid": "15001137",
+      "name": "Permafrost Bayou",
+      "image_url": "/assets/maps/15001137.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001137.png"
+    },
+    {
+      "mid": "15001111",
+      "name": "Slay Bay",
+      "image_url": "/assets/maps/15001111.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001111.png"
+    },
+    {
+      "mid": "15001147",
+      "name": "Caged Hearts",
+      "image_url": "/assets/maps/15001147.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001147.png"
+    },
+    {
+      "mid": "15001158",
+      "name": "Crush & Burn",
+      "image_url": "/assets/maps/15001158.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001158.png"
+    },
+    {
+      "mid": "15001154",
+      "name": "Kiss Kaboom",
+      "image_url": "/assets/maps/15001154.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001154.png"
+    },
+    {
+      "mid": "15001146",
+      "name": "Lover's Lane",
+      "image_url": "/assets/maps/15001146.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001146.png"
+    },
+    {
+      "mid": "15001151",
+      "name": "Mega Bear Shade",
+      "image_url": "/assets/maps/15001151.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001151.png"
+    },
+    {
+      "mid": "15001152",
+      "name": "Mega Brawlentine's Angelo",
+      "image_url": "/assets/maps/15001152.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001152.png"
+    },
+    {
+      "mid": "15001153",
+      "name": "Mega Heartbroken Rico",
+      "image_url": "/assets/maps/15001153.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001153.png"
+    },
+    {
+      "mid": "15001150",
+      "name": "Mega Love Potion Squeak",
+      "image_url": "/assets/maps/15001150.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001150.png"
+    },
+    {
+      "mid": "15001191",
+      "name": "Doppelzone",
+      "image_url": "/assets/maps/15001191.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001191.png"
+    },
+    {
+      "mid": "15001190",
+      "name": "Illusion Alley",
+      "image_url": "/assets/maps/15001190.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001190.png"
+    },
+    {
+      "mid": "15001188",
+      "name": "Moonveil Mansion",
+      "image_url": "/assets/maps/15001188.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001188.png"
+    },
+    {
+      "mid": "15001189",
+      "name": "Silver Shadow Circus",
+      "image_url": "/assets/maps/15001189.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001189.png"
+    },
+    {
+      "mid": "15001226",
+      "name": "Copycat Carnival",
+      "image_url": "/assets/maps/15001226.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001226.png"
+    },
+    {
+      "mid": "15001225",
+      "name": "Imposter Pathway",
+      "image_url": "/assets/maps/15001225.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001225.png"
+    },
+    {
+      "mid": "15001224",
+      "name": "The Big Top",
+      "image_url": "/assets/maps/15001224.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001224.png"
+    },
+    {
+      "mid": "15001223",
+      "name": "Web of Shadows",
+      "image_url": "/assets/maps/15001223.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001223.png"
+    },
+    {
+      "mid": "15001135",
+      "name": "Gated Community",
+      "image_url": "/assets/maps/15001135.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001135.png"
+    },
+    {
+      "mid": "15001133",
+      "name": "Kroket",
+      "image_url": "/assets/maps/15001133.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001133.png"
+    },
+    {
+      "mid": "15001134",
+      "name": "Lotus",
+      "image_url": "/assets/maps/15001134.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001134.png"
+    },
+    {
+      "mid": "15000748",
+      "name": "Rusty Rebound",
+      "image_url": "/assets/maps/15000748.webp",
+      "remote_url": "https://brawlify.com/images/maps/15000748.png"
+    },
+    {
+      "mid": "15001156",
+      "name": "TID_SWARM_1",
+      "image_url": "/assets/maps/15001156.webp",
+      "remote_url": "https://brawlify.com/images/maps/15001156.png"
+    }
+  ],
+  "gamemodes": [
+    {
+      "mid": "48000000",
+      "name": "GEM GRAB",
+      "image_url": "/assets/gamemodes/48000000.webp",
+      "remote_url": "https://brawlify.com/images/game-modes/48000000.png"
+    },
+    {
+      "mid": "48000002",
+      "name": "HEIST",
+      "image_url": "/assets/gamemodes/48000002.webp",
+      "remote_url": "https://brawlify.com/images/game-modes/48000002.png"
+    },
+    {
+      "mid": "48000003",
+      "name": "BOUNTY",
+      "image_url": "/assets/gamemodes/48000003.webp",
+      "remote_url": "https://brawlify.com/images/game-modes/48000003.png"
+    },
+    {
+      "mid": "48000005",
+      "name": "BRAWL BALL",
+      "image_url": "/assets/gamemodes/48000005.webp",
+      "remote_url": "https://brawlify.com/images/game-modes/48000005.png"
+    },
+    {
+      "mid": "48000006",
+      "name": "SOLO SHOWDOWN",
+      "image_url": "/assets/gamemodes/48000006.webp",
+      "remote_url": "https://brawlify.com/images/game-modes/48000006.png"
+    },
+    {
+      "mid": "48000009",
+      "name": "DUO SHOWDOWN",
+      "image_url": "/assets/gamemodes/48000009.webp",
+      "remote_url": "https://brawlify.com/images/game-modes/48000009.png"
+    },
+    {
+      "mid": "48000011",
+      "name": "SPIRIT WARS",
+      "image_url": "/assets/gamemodes/48000011.webp",
+      "remote_url": "https://brawlify.com/images/game-modes/48000011.png"
+    },
+    {
+      "mid": "48000016",
+      "name": "PRESENT PLUNDER",
+      "image_url": "/assets/gamemodes/48000016.webp",
+      "remote_url": "https://brawlify.com/images/game-modes/48000016.png"
+    },
+    {
+      "mid": "48000017",
+      "name": "HOT ZONE",
+      "image_url": "/assets/gamemodes/48000017.webp",
+      "remote_url": "https://brawlify.com/images/game-modes/48000017.png"
+    },
+    {
+      "mid": "48000020",
+      "name": "KNOCKOUT",
+      "image_url": "/assets/gamemodes/48000020.webp",
+      "remote_url": "https://brawlify.com/images/game-modes/48000020.png"
+    },
+    {
+      "mid": "48000022",
+      "name": "BASKET BRAWL",
+      "image_url": "/assets/gamemodes/48000022.webp",
+      "remote_url": "https://brawlify.com/images/game-modes/48000022.png"
+    },
+    {
+      "mid": "48000023",
+      "name": "VOLLEY BRAWL",
+      "image_url": "/assets/gamemodes/48000023.webp",
+      "remote_url": "https://brawlify.com/images/game-modes/48000023.png"
+    },
+    {
+      "mid": "48000024",
+      "name": "DUELS",
+      "image_url": "/assets/gamemodes/48000024.webp",
+      "remote_url": "https://brawlify.com/images/game-modes/48000024.png"
+    },
+    {
+      "mid": "48000025",
+      "name": "WIPEOUT",
+      "image_url": "/assets/gamemodes/48000025.webp",
+      "remote_url": "https://brawlify.com/images/game-modes/48000025.png"
+    },
+    {
+      "mid": "48000031",
+      "name": "WIPEOUT 5V5",
+      "image_url": "/assets/gamemodes/48000031.webp",
+      "remote_url": "https://brawlify.com/images/game-modes/48000031.png"
+    },
+    {
+      "mid": "48000032",
+      "name": "BRAWL BALL 5V5",
+      "image_url": "/assets/gamemodes/48000032.webp",
+      "remote_url": "https://brawlify.com/images/game-modes/48000032.png"
+    },
+    {
+      "mid": "48000033",
+      "name": "GEM GRAB 5V5",
+      "image_url": "/assets/gamemodes/48000033.webp",
+      "remote_url": "https://brawlify.com/images/game-modes/48000033.png"
+    },
+    {
+      "mid": "48000035",
+      "name": "KNOCKOUT 5V5",
+      "image_url": "/assets/gamemodes/48000035.webp",
+      "remote_url": "https://brawlify.com/images/game-modes/48000035.png"
+    },
+    {
+      "mid": "48000037",
+      "name": "PAINT BRAWL",
+      "image_url": "/assets/gamemodes/48000037.webp",
+      "remote_url": "https://brawlify.com/images/game-modes/48000037.png"
+    },
+    {
+      "mid": "48000038",
+      "name": "TRIO SHOWDOWN",
+      "image_url": "/assets/gamemodes/48000038.webp",
+      "remote_url": "https://brawlify.com/images/game-modes/48000038.png"
+    },
+    {
+      "mid": "48000040",
+      "name": "SOUL COLLECTOR",
+      "image_url": "/assets/gamemodes/48000040.webp",
+      "remote_url": "https://brawlify.com/images/game-modes/48000040.png"
+    },
+    {
+      "mid": "48000045",
+      "name": "BRAWL HOCKEY",
+      "image_url": "/assets/gamemodes/48000045.webp",
+      "remote_url": "https://brawlify.com/images/game-modes/48000045.png"
+    },
+    {
+      "mid": "48000048",
+      "name": "BRAWL ARENA",
+      "image_url": "/assets/gamemodes/48000048.webp",
+      "remote_url": "https://brawlify.com/images/game-modes/48000048.png"
+    },
+    {
+      "mid": "48000055",
+      "name": "TOKEN RUN",
+      "image_url": "/assets/gamemodes/48000055.webp",
+      "remote_url": "https://brawlify.com/images/game-modes/48000055.png"
+    },
+    {
+      "mid": "48000056",
+      "name": "TREASURE HUNT",
+      "image_url": "/assets/gamemodes/48000056.webp",
+      "remote_url": "https://brawlify.com/images/game-modes/48000056.png"
+    },
+    {
+      "mid": "48000057",
+      "name": "BRAWL HOCKEY",
+      "image_url": "/assets/gamemodes/48000057.webp",
+      "remote_url": "https://brawlify.com/images/game-modes/48000057.png"
+    },
+    {
+      "mid": "48000061",
+      "name": "HAWKINS HUNT",
+      "image_url": "/assets/gamemodes/48000061.webp",
+      "remote_url": "https://brawlify.com/images/game-modes/48000061.png"
+    },
+    {
+      "mid": "48000063",
+      "name": "DODGEBRAWL",
+      "image_url": "/assets/gamemodes/48000063.webp",
+      "remote_url": "https://brawlify.com/images/game-modes/48000063.png"
+    },
+    {
+      "mid": "48000064",
+      "name": "SUBWAY RUN",
+      "image_url": "/assets/gamemodes/48000064.webp",
+      "remote_url": "https://brawlify.com/images/game-modes/48000064.png"
+    },
+    {
+      "mid": "48000065",
+      "name": "TRIO GEM GRAB",
+      "image_url": "/assets/gamemodes/48000065.webp",
+      "remote_url": "https://brawlify.com/images/game-modes/48000065.png"
+    },
+    {
+      "mid": "48000066",
+      "name": "TRIO WIPEOUT",
+      "image_url": "/assets/gamemodes/48000066.webp",
+      "remote_url": "https://brawlify.com/images/game-modes/48000066.png"
+    },
+    {
+      "mid": "48000067",
+      "name": "UPSIDE SHOWDOWN",
+      "image_url": "/assets/gamemodes/48000067.webp",
+      "remote_url": "https://brawlify.com/images/game-modes/48000067.png"
+    },
+    {
+      "mid": "48000068",
+      "name": "LOVE BOMBING",
+      "image_url": "/assets/gamemodes/48000068.webp",
+      "remote_url": "https://brawlify.com/images/game-modes/48000068.png"
+    },
+    {
+      "mid": "48000069",
+      "name": "DUO MEGA BOSS",
+      "image_url": "/assets/gamemodes/48000069.webp",
+      "remote_url": "https://brawlify.com/images/game-modes/48000069.png"
+    },
+    {
+      "mid": "48000070",
+      "name": "SAFE BLAST",
+      "image_url": "/assets/gamemodes/48000070.webp",
+      "remote_url": "https://brawlify.com/images/game-modes/48000070.png"
+    },
+    {
+      "mid": "48000071",
+      "name": "SWARM",
+      "image_url": "/assets/gamemodes/48000071.webp",
+      "remote_url": "https://brawlify.com/images/game-modes/48000071.png"
+    },
+    {
+      "mid": "48000072",
+      "name": "LOADED SHOWDOWN",
+      "image_url": "/assets/gamemodes/48000072.webp",
+      "remote_url": "https://brawlify.com/images/game-modes/48000072.png"
+    },
+    {
+      "mid": "48000073",
+      "name": "SHADOW SMASH",
+      "image_url": "/assets/gamemodes/48000073.webp",
+      "remote_url": "https://brawlify.com/images/game-modes/48000073.png"
+    },
+    {
+      "mid": "48000074",
+      "name": "SHADOW SMASH",
+      "image_url": "/assets/gamemodes/48000074.webp",
+      "remote_url": "https://brawlify.com/images/game-modes/48000074.png"
+    }
+  ]
+}
