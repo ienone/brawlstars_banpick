@@ -22,7 +22,7 @@ vi.mock('../brawlers', () => ({
       { bid: '2', name_en: 'Colt', rarity: 'Common' },
       { bid: '3', name_en: 'Bull', rarity: 'Common' },
     ],
-    getBrawlerById: { value: (id) => null },
+    getBrawlerById: vi.fn().mockReturnValue(null),
   }),
 }))
 

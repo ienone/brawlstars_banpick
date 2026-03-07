@@ -59,7 +59,7 @@ const matches = ref([])
 const loading = ref(true)
 
 function getBrawlerName(bid) {
-  const b = brawlersStore.getBrawlerById.value(bid)
+  const b = brawlersStore.getBrawlerById(bid)
   return b ? b.name_en : bid
 }
 

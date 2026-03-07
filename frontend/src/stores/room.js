@@ -2,20 +2,7 @@ import { defineStore } from 'pinia'
 import { ref, computed } from 'vue'
 import pb from '@/services/pb'
 import { useBrawlersStore } from './brawlers'
-
-const getBPSequence = (firstPick) => {
-  const a = firstPick
-  const b = a === 'blue' ? 'red' : 'blue'
-  return [
-    { team: a, type: 'ban' }, { team: b, type: 'ban' },
-    { team: a, type: 'ban' }, { team: b, type: 'ban' },
-    { team: a, type: 'ban' }, { team: b, type: 'ban' },
-    { team: a, type: 'pick' },
-    { team: b, type: 'pick' }, { team: b, type: 'pick' },
-    { team: a, type: 'pick' }, { team: a, type: 'pick' },
-    { team: b, type: 'pick' },
-  ]
-}
+import { getBPSequence } from '@/utils/bpSequence'
 
 export const useRoomStore = defineStore('room', () => {
   const id = ref(null)
@@ -131,7 +118,11 @@ export const useRoomStore = defineStore('room', () => {
         seats: seats.value,
         bpState: bpState.value,
         status: 'waiting',
-        inviteCode: Math.random().toString(36).substring(2, 8).toUpperCase(),
+        inviteCode: Array.from(crypto.getRandomValues(new Uint8Array(4)))
+          .map(b => b.toString(36).padStart(2, '0'))
+          .join('')
+          .substring(0, 6)
+          .toUpperCase(),
       }
       const record = await pb.collection('rooms').create(data)
       id.value = record.id
@@ -179,6 +170,10 @@ export const useRoomStore = defineStore('room', () => {
     }
   }
 
+  function updateSeats(newSeats) {
+    seats.value = newSeats
+  }
+
   function unsubscribe() {
     if (unsubscribeFn) {
       unsubscribeFn()
@@ -191,7 +186,7 @@ export const useRoomStore = defineStore('room', () => {
     currentTurnInfo, isBanPhase, isPickPhase,
     bannedBrawlerIds, pickedBrawlerIds, availableBrawlers, currentTeam,
     getBPSequence,
-    advanceTurn, setPrePick, setSoftLock, confirmPick, setCoachRec,
+    advanceTurn, setPrePick, setSoftLock, confirmPick, setCoachRec, updateSeats,
     subscribeRoom, createRoom, joinRoom, startBP, unsubscribe,
   }
 })

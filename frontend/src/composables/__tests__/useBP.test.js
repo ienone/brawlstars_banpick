@@ -13,7 +13,7 @@ vi.mock('@/services/pb', () => ({
 vi.mock('@/stores/brawlers', () => ({
   useBrawlersStore: () => ({
     brawlers: [],
-    getBrawlerById: { value: () => null },
+    getBrawlerById: vi.fn().mockReturnValue(null),
   }),
 }))
 

@@ -94,7 +94,7 @@ const myUserId = computed(() => authStore.user?.id)
 const mySoftLock = computed(() => bpState.value.softLock[myUserId.value] || null)
 
 function getBrawlerName(brawlerId) {
-  const b = brawlersStore.getBrawlerById.value(brawlerId)
+  const b = brawlersStore.getBrawlerById(brawlerId)
   return b ? b.name_en : brawlerId
 }
 

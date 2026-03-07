@@ -97,7 +97,7 @@ async function copyInvite(team) {
 }
 
 function handleSeatsUpdate(newSeats) {
-  roomStore.seats = newSeats
+  roomStore.updateSeats(newSeats)
 }
 
 async function handleStartBP() {

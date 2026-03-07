@@ -1,5 +1,5 @@
 import { defineStore } from 'pinia'
-import { ref, computed } from 'vue'
+import { ref } from 'vue'
 
 export const useBrawlersStore = defineStore('brawlers', () => {
   const brawlers = ref([])
@@ -15,9 +15,9 @@ export const useBrawlersStore = defineStore('brawlers', () => {
     }
   }
 
-  const getBrawlerById = computed(() => (id) => {
+  function getBrawlerById(id) {
     return brawlers.value.find(b => String(b.bid) === String(id)) || null
-  })
+  }
 
   return { brawlers, loadBrawlers, getBrawlerById }
 })

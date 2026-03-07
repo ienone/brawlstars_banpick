@@ -1,22 +1,9 @@
 import { computed } from 'vue'
 import { useRoomStore } from '@/stores/room'
+import { getBPSequence } from '@/utils/bpSequence'
 
 export function useBP() {
   const roomStore = useRoomStore()
-
-  const getBPSequence = (firstPick) => {
-    const a = firstPick
-    const b = a === 'blue' ? 'red' : 'blue'
-    return [
-      { team: a, type: 'ban' }, { team: b, type: 'ban' },
-      { team: a, type: 'ban' }, { team: b, type: 'ban' },
-      { team: a, type: 'ban' }, { team: b, type: 'ban' },
-      { team: a, type: 'pick' },
-      { team: b, type: 'pick' }, { team: b, type: 'pick' },
-      { team: a, type: 'pick' }, { team: a, type: 'pick' },
-      { team: b, type: 'pick' },
-    ]
-  }
 
   const currentStep = computed(() => {
     const seq = getBPSequence(roomStore.config.firstPick)
