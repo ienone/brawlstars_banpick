@@ -129,10 +129,18 @@ function handleConfirmPick() {
   if (brawlerId) roomStore.confirmPick(uid, brawlerId)
 }
 
+function pickRandomAvailableBrawler() {
+  const available = roomStore.availableBrawlers
+  if (available.length === 0) return null
+  return available[Math.floor(Math.random() * available.length)]
+}
+
 function handleTimeout() {
-  if (isMyTurnToAct() && roomStore.availableBrawlers.length > 0) {
-    const random = roomStore.availableBrawlers[Math.floor(Math.random() * roomStore.availableBrawlers.length)]
-    roomStore.advanceTurn(random.bid)
+  if (isMyTurnToAct()) {
+    const brawler = mySoftLock.value
+      ? { bid: mySoftLock.value }
+      : pickRandomAvailableBrawler()
+    if (brawler) roomStore.advanceTurn(brawler.bid)
   }
 }
 

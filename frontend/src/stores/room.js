@@ -4,6 +4,18 @@ import pb from '@/services/pb'
 import { useBrawlersStore } from './brawlers'
 import { getBPSequence } from '@/utils/bpSequence'
 
+function generateInviteCode() {
+  return Array.from(crypto.getRandomValues(new Uint8Array(4)))
+    .map(b => b.toString(36).padStart(2, '0'))
+    .join('')
+    .substring(0, 6)
+    .toUpperCase()
+}
+
+function getNextSeatIndex(picks, team) {
+  return picks.filter(p => p.team === team).length
+}
+
 export const useRoomStore = defineStore('room', () => {
   const id = ref(null)
   const hostId = ref(null)
@@ -55,7 +67,7 @@ export const useRoomStore = defineStore('room', () => {
     if (info.type === 'ban') {
       bpState.value.bans.push({ team: info.team, brawlerId })
     } else {
-      bpState.value.picks.push({ team: info.team, brawlerId, seatIndex: bpState.value.picks.filter(p => p.team === info.team).length })
+      bpState.value.picks.push({ team: info.team, brawlerId, seatIndex: getNextSeatIndex(bpState.value.picks, info.team) })
     }
 
     bpState.value.turn++
@@ -118,11 +130,7 @@ export const useRoomStore = defineStore('room', () => {
         seats: seats.value,
         bpState: bpState.value,
         status: 'waiting',
-        inviteCode: Array.from(crypto.getRandomValues(new Uint8Array(4)))
-          .map(b => b.toString(36).padStart(2, '0'))
-          .join('')
-          .substring(0, 6)
-          .toUpperCase(),
+        inviteCode: generateInviteCode(),
       }
       const record = await pb.collection('rooms').create(data)
       id.value = record.id

@@ -85,7 +85,7 @@ function matchesSearch(b) {
   const q = searchText.value.toLowerCase().trim()
   if (!q) return true
   if (b.name_en.toLowerCase().includes(q)) return true
-  if (b.name_cn && b.name_cn.includes(q)) return true
+  if (b.name_cn && b.name_cn.toLowerCase().includes(q)) return true
   const initials = b.name_en.split(' ').map(w => w[0]?.toLowerCase()).join('')
   if (initials.includes(q)) return true
   return false
