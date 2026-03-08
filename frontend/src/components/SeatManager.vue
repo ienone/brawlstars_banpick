@@ -13,14 +13,14 @@
             <draggable
               :list="localSeats[team].players"
               group="users"
-              item-key="index"
+              item-key="id"
               class="drag-zone"
               @change="emitUpdate"
             >
               <template #item="{ element, index }">
                 <div class="seat-slot player-slot" :class="`team-${team}`">
                   <v-icon size="16" class="mr-2">mdi-account</v-icon>
-                  <span v-if="element">{{ getUserName(element) }}</span>
+                  <span v-if="element.value">{{ getUserName(element.value) }}</span>
                   <span v-else class="text-grey">Player {{ index + 1 }}</span>
                 </div>
               </template>
@@ -32,14 +32,14 @@
             <draggable
               :list="localSeats[team].coaches"
               group="users"
-              item-key="index"
+              item-key="id"
               class="drag-zone"
               @change="emitUpdate"
             >
               <template #item="{ element, index }">
                 <div class="seat-slot coach-slot" :class="`team-${team}`">
                   <v-icon size="16" class="mr-2">mdi-whistle</v-icon>
-                  <span v-if="element">{{ getUserName(element) }}</span>
+                  <span v-if="element.value">{{ getUserName(element.value) }}</span>
                   <span v-else class="text-grey">Coach {{ index + 1 }}</span>
                 </div>
               </template>
@@ -61,22 +61,35 @@ const props = defineProps({
 })
 const emit = defineEmits(['update:seats'])
 
+/**
+ * Wrap a plain value array into `{ id, value }` objects so vuedraggable
+ * has a stable, unique key per slot even when items are null primitives.
+ */
+function toKeyedList(arr, prefix) {
+  return arr.map((value, i) => ({ id: `${prefix}-${i}`, value }))
+}
+
 const localSeats = reactive({
   blue: {
-    players: [...(props.seats.blue?.players || [null, null, null])],
-    coaches: [...(props.seats.blue?.coaches || [null, null])],
+    players: toKeyedList(props.seats.blue?.players || [null, null, null], 'blue-player'),
+    coaches: toKeyedList(props.seats.blue?.coaches || [null, null], 'blue-coach'),
   },
   red: {
-    players: [...(props.seats.red?.players || [null, null, null])],
-    coaches: [...(props.seats.red?.coaches || [null, null])],
+    players: toKeyedList(props.seats.red?.players || [null, null, null], 'red-player'),
+    coaches: toKeyedList(props.seats.red?.coaches || [null, null], 'red-coach'),
   },
 })
 
 watch(() => props.seats, (newSeats) => {
-  localSeats.blue.players = [...(newSeats.blue?.players || [null, null, null])]
-  localSeats.blue.coaches = [...(newSeats.blue?.coaches || [null, null])]
-  localSeats.red.players = [...(newSeats.red?.players || [null, null, null])]
-  localSeats.red.coaches = [...(newSeats.red?.coaches || [null, null])]
+  // Update values in-place to preserve the stable id keys
+  for (const team of ['blue', 'red']) {
+    for (const role of ['players', 'coaches']) {
+      const incoming = newSeats[team]?.[role] || []
+      localSeats[team][role].forEach((slot, i) => {
+        slot.value = incoming[i] ?? null
+      })
+    }
+  }
 }, { deep: true })
 
 function getUserName(uid) {
@@ -86,8 +99,14 @@ function getUserName(uid) {
 
 function emitUpdate() {
   emit('update:seats', {
-    blue: { players: [...localSeats.blue.players], coaches: [...localSeats.blue.coaches] },
-    red: { players: [...localSeats.red.players], coaches: [...localSeats.red.coaches] },
+    blue: {
+      players: localSeats.blue.players.map(s => s.value),
+      coaches: localSeats.blue.coaches.map(s => s.value),
+    },
+    red: {
+      players: localSeats.red.players.map(s => s.value),
+      coaches: localSeats.red.coaches.map(s => s.value),
+    },
   })
 }
 </script>

@@ -32,6 +32,9 @@ const emit = defineEmits(['timeout'])
 
 const { countdownShake } = useAnimation()
 const timerEl = ref(null)
+// Guard so we emit 'timeout' exactly once per countdown cycle.
+// Resets automatically when seconds becomes positive again (next round).
+const hasTimedOut = ref(false)
 
 const timerColor = computed(() => {
   const ratio = props.seconds / props.maxSeconds
@@ -46,10 +49,13 @@ const dashOffset = computed(() => {
 })
 
 watch(() => props.seconds, (s) => {
-  if (s <= 5 && s > 0 && timerEl.value) {
-    countdownShake(timerEl.value)
-  }
-  if (s <= 0) {
+  if (s > 0) {
+    hasTimedOut.value = false
+    if (s <= 5 && timerEl.value) {
+      countdownShake(timerEl.value)
+    }
+  } else if (!hasTimedOut.value) {
+    hasTimedOut.value = true
     emit('timeout')
   }
 })
