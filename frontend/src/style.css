@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: 'Noto Sans SC', 'Segoe UI', 'Microsoft YaHei', '微软雅黑', Tahoma, Geneva, Verdana, sans-serif;
+  color-scheme: dark;
+}
+
+body {
+  background: #0f0f1a;
+  color: #ffffff;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #1a1a2e;
+}
+::-webkit-scrollbar-thumb {
+  background: #4CAF50;
+  border-radius: 3px;
+}
+
+.team-blue {
+  color: #5ab3ff;
+}
+.team-red {
+  color: #f66e6e;
+}
+
+.glow-blue {
+  box-shadow: 0 0 12px #5ab3ff, 0 0 24px rgba(90, 179, 255, 0.3);
+}
+.glow-red {
+  box-shadow: 0 0 12px #f66e6e, 0 0 24px rgba(246, 110, 110, 0.3);
+}
+.glow-green {
+  box-shadow: 0 0 12px #4CAF50, 0 0 24px rgba(76, 175, 80, 0.3);
+}
