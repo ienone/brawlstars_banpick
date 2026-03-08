@@ -1,35 +1,38 @@
 import { computed } from 'vue'
 import { useRoomStore } from '@/stores/room'
-import { getBPSequence } from '@/utils/bpSequence'
+import { getBPSequence, BANS_PER_TEAM } from '@/utils/bpSequence'
 
 export function useBP() {
   const roomStore = useRoomStore()
 
-  const currentStep = computed(() => {
-    const seq = getBPSequence(roomStore.config.firstPick)
-    return seq[roomStore.bpState.turn] || null
-  })
+  /**
+   * Current step — null during the simultaneous ban phase;
+   * returns the active pick step during pick phase.
+   */
+  const currentStep = computed(() => roomStore.currentTurnInfo)
+
+  const getTeamForUser = (userId) => roomStore.getUserTeam(userId)
 
   const isMyTurn = (userId) => {
     if (!currentStep.value) return false
-    const myTeam = getTeamForUser(userId)
-    return currentStep.value.team === myTeam
+    return currentStep.value.team === getTeamForUser(userId)
   }
 
-  const getTeamForUser = (userId) => {
-    const blue = roomStore.seats.blue
-    const red = roomStore.seats.red
-    if (blue.players.includes(userId) || blue.coaches.includes(userId)) return 'blue'
-    if (red.players.includes(userId) || red.coaches.includes(userId)) return 'red'
-    return null
+  /** Whether a player can still confirm a ban during the simultaneous ban phase. */
+  const canBan = (userId) => {
+    if (roomStore.bpState.phase !== 'ban') return false
+    const team = getTeamForUser(userId)
+    if (!team) return false
+    const teamBans = roomStore.bpState.simultBans?.[team] ?? []
+    return teamBans.length < BANS_PER_TEAM
   }
 
   const canSelect = (userId, brawlerId) => {
-    if (!isMyTurn(userId)) return false
     if (roomStore.bannedBrawlerIds.includes(brawlerId)) return false
     if (roomStore.pickedBrawlerIds.includes(brawlerId)) return false
-    return true
+    if (roomStore.bpState.phase === 'ban') return canBan(userId)
+    return isMyTurn(userId)
   }
 
-  return { getBPSequence, currentStep, isMyTurn, canSelect }
+  return { getBPSequence, currentStep, isMyTurn, canBan, canSelect }
 }

@@ -2,7 +2,7 @@ import { defineStore } from 'pinia'
 import { ref, computed } from 'vue'
 import pb from '@/services/pb'
 import { useBrawlersStore } from './brawlers'
-import { getBPSequence } from '@/utils/bpSequence'
+import { getBPSequence, getPickSequence, BANS_PER_TEAM } from '@/utils/bpSequence'
 
 function generateInviteCode() {
   return Array.from(crypto.getRandomValues(new Uint8Array(4)))
@@ -28,10 +28,16 @@ export const useRoomStore = defineStore('room', () => {
   const bpState = ref({
     turn: 0,
     phase: 'ban',
-    bans: [],
+    // Simultaneous ban phase — populated before reveal, then transferred to bans[]
+    simultBans: {
+      blue: [],       // confirmed brawler IDs by blue team
+      red: [],        // confirmed brawler IDs by red team
+      revealed: false, // true when both teams done or forced by timeout
+    },
+    bans: [],         // populated from simultBans after reveal; used in pick phase / history
     picks: [],
-    prePicks: {},
-    softLock: {},
+    prePicks: {},     // per-userId pre-selection (used as pre-ban or pre-pick)
+    softLock: {},     // per-userId soft lock (pick phase only)
     coachRecs: {},
     timer: 30,
     status: 'waiting',
@@ -39,15 +45,38 @@ export const useRoomStore = defineStore('room', () => {
   const historyLocks = ref([])
   let unsubscribeFn = null
 
+  // ── Helpers ──────────────────────────────────────────────────────────────
+
+  function getUserTeam(userId) {
+    if (!userId) return null
+    const blue = seats.value.blue
+    const red = seats.value.red
+    if (blue.players.includes(userId) || blue.coaches.includes(userId)) return 'blue'
+    if (red.players.includes(userId) || red.coaches.includes(userId)) return 'red'
+    return null
+  }
+
+  // ── Computed ──────────────────────────────────────────────────────────────
+
+  /**
+   * Current turn info — only meaningful during pick phase.
+   * Returns null during the simultaneous ban phase.
+   */
   const currentTurnInfo = computed(() => {
-    const seq = getBPSequence(config.value.firstPick)
+    if (bpState.value.phase !== 'pick') return null
+    const seq = getPickSequence(config.value.firstPick)
     return seq[bpState.value.turn] || null
   })
 
   const isBanPhase = computed(() => bpState.value.phase === 'ban')
   const isPickPhase = computed(() => bpState.value.phase === 'pick')
 
-  const bannedBrawlerIds = computed(() => bpState.value.bans.map(b => b.brawlerId))
+  /** All confirmed ban IDs from both teams (used to disable brawlers in the grid). */
+  const bannedBrawlerIds = computed(() => {
+    const { blue = [], red = [] } = bpState.value.simultBans || {}
+    return [...blue, ...red]
+  })
+
   const pickedBrawlerIds = computed(() => bpState.value.picks.map(p => p.brawlerId))
 
   const availableBrawlers = computed(() => {
@@ -59,23 +88,96 @@ export const useRoomStore = defineStore('room', () => {
 
   const currentTeam = computed(() => currentTurnInfo.value?.team || null)
 
-  function advanceTurn(brawlerId) {
-    const info = currentTurnInfo.value
-    if (!info) return
-    const turn = bpState.value.turn
+  // ── Ban-phase actions ─────────────────────────────────────────────────────
 
-    if (info.type === 'ban') {
-      bpState.value.bans.push({ team: info.team, brawlerId })
-    } else {
-      bpState.value.picks.push({ team: info.team, brawlerId, seatIndex: getNextSeatIndex(bpState.value.picks, info.team) })
+  /**
+   * Called when a player confirms their ban selection during the simultaneous ban phase.
+   * - Adds the brawler to the team's confirmed list (up to BANS_PER_TEAM).
+   * - Clears the player's prePick.
+   * - Auto-reveals when both teams have all bans confirmed.
+   */
+  function confirmBan(userId, brawlerId) {
+    if (bpState.value.phase !== 'ban') return
+    const team = getUserTeam(userId)
+    if (!team) return
+    const teamBans = bpState.value.simultBans[team]
+    if (teamBans.length >= BANS_PER_TEAM) return
+    if (bannedBrawlerIds.value.includes(brawlerId)) return // already banned
+    teamBans.push(brawlerId)
+    delete bpState.value.prePicks[userId]
+    // Auto-reveal when both teams reach the cap
+    const { blue, red } = bpState.value.simultBans
+    if (blue.length >= BANS_PER_TEAM && red.length >= BANS_PER_TEAM) {
+      revealBans()
     }
+  }
 
+  /**
+   * Reveals all bans (called when both teams finish, or on timeout).
+   * Transitions the phase to 'pick'.
+   */
+  function revealBans() {
+    if (bpState.value.simultBans.revealed) return // idempotent
+    bpState.value.simultBans.revealed = true
+    // Transfer simultBans to the legacy bans[] array for pick-phase display / history
+    bpState.value.bans = [
+      ...bpState.value.simultBans.blue.map(id => ({ team: 'blue', brawlerId: id })),
+      ...bpState.value.simultBans.red.map(id => ({ team: 'red', brawlerId: id })),
+    ]
+    bpState.value.phase = 'pick'
+    bpState.value.turn = 0
+    bpState.value.prePicks = {}
+  }
+
+  /**
+   * Returns ban display objects for a given team, filtered by the viewer's perspective.
+   * - Own team's bans: show actual brawler object.
+   * - Opponent's bans (before reveal): return masked placeholder objects.
+   * - After reveal: all bans are shown.
+   * @param {'blue'|'red'} targetTeam  which team's bans to describe
+   * @param {'blue'|'red'|null} viewerTeam  which team is viewing
+   */
+  function getBansForViewer(targetTeam, viewerTeam) {
+    const brawlersStore = useBrawlersStore()
+    const { blue = [], red = [], revealed = false } = bpState.value.simultBans
+    const confirmedIds = targetTeam === 'blue' ? blue : red
+    const showActual = revealed || targetTeam === viewerTeam
+
+    // Build an array of BANS_PER_TEAM slot objects
+    const slots = []
+    for (let i = 0; i < BANS_PER_TEAM; i++) {
+      if (i < confirmedIds.length) {
+        if (showActual) {
+          const brawlerObj = brawlersStore.getBrawlerById(confirmedIds[i])
+          slots.push({ brawlerId: confirmedIds[i], brawlerObj, masked: false })
+        } else {
+          // Opponent sees "ban confirmed" indicator without knowing the brawler
+          slots.push({ brawlerId: null, brawlerObj: null, masked: true })
+        }
+      } else {
+        slots.push(null) // empty slot
+      }
+    }
+    return slots
+  }
+
+  // ── Pick-phase actions ────────────────────────────────────────────────────
+
+  /** Advances the pick phase by one turn. Only valid during pick phase. */
+  function advanceTurn(brawlerId) {
+    if (bpState.value.phase !== 'pick') return
+    const seq = getPickSequence(config.value.firstPick)
+    const info = seq[bpState.value.turn]
+    if (!info) return
+
+    bpState.value.picks.push({
+      team: info.team,
+      brawlerId,
+      seatIndex: getNextSeatIndex(bpState.value.picks, info.team),
+    })
     bpState.value.turn++
 
-    if (bpState.value.turn >= 6 && bpState.value.phase === 'ban') {
-      bpState.value.phase = 'pick'
-    }
-    if (bpState.value.turn >= 12) {
+    if (bpState.value.turn >= getPickSequence(config.value.firstPick).length) {
       bpState.value.phase = 'finished'
       bpState.value.status = 'finished'
     }
@@ -101,6 +203,8 @@ export const useRoomStore = defineStore('room', () => {
     }
     bpState.value.coachRecs[coachId][targetUserId] = brawlerId
   }
+
+  // ── PocketBase sync ───────────────────────────────────────────────────────
 
   async function subscribeRoom(roomId) {
     if (unsubscribeFn) {
@@ -164,6 +268,7 @@ export const useRoomStore = defineStore('room', () => {
     bpState.value.status = 'active'
     bpState.value.phase = 'ban'
     bpState.value.turn = 0
+    bpState.value.simultBans = { blue: [], red: [], revealed: false }
     bpState.value.bans = []
     bpState.value.picks = []
     bpState.value.prePicks = {}
@@ -193,8 +298,11 @@ export const useRoomStore = defineStore('room', () => {
     id, hostId, inviteCode, config, seats, bpState, historyLocks,
     currentTurnInfo, isBanPhase, isPickPhase,
     bannedBrawlerIds, pickedBrawlerIds, availableBrawlers, currentTeam,
+    BANS_PER_TEAM,
     getBPSequence,
+    getUserTeam,
     advanceTurn, setPrePick, setSoftLock, confirmPick, setCoachRec, updateSeats,
+    confirmBan, revealBans, getBansForViewer,
     subscribeRoom, createRoom, joinRoom, startBP, unsubscribe,
   }
 })

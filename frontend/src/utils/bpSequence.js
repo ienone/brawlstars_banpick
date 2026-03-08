@@ -1,7 +1,27 @@
 /**
- * Returns the 12-step BP sequence for a given first-pick team.
- * Ban Phase (6 bans, 1-1-1-1-1-1): [A, B, A, B, A, B]  (turns 0-5)
- * Pick Phase (6 picks, 1-2-2-1):   [A, B, B, A, A, B]  (turns 6-11)
+ * Number of bans each team submits simultaneously during the ban phase.
+ */
+export const BANS_PER_TEAM = 3
+
+/**
+ * Returns the 6-step pick sequence (1-2-2-1) used after the simultaneous ban phase.
+ * @param {'blue'|'red'} firstPick - the team that picks first
+ */
+export function getPickSequence(firstPick) {
+  const a = firstPick
+  const b = a === 'blue' ? 'red' : 'blue'
+  return [
+    { team: a, type: 'pick' },
+    { team: b, type: 'pick' }, { team: b, type: 'pick' },
+    { team: a, type: 'pick' }, { team: a, type: 'pick' },
+    { team: b, type: 'pick' },
+  ]
+}
+
+/**
+ * Returns the full 12-step BP sequence (6 sequential bans + 6 picks).
+ * Kept for backward compatibility — the ban phase now uses simultaneous logic
+ * and the store uses getPickSequence for the pick turns.
  * @param {'blue'|'red'} firstPick - the team that picks first
  */
 export function getBPSequence(firstPick) {
@@ -11,9 +31,6 @@ export function getBPSequence(firstPick) {
     { team: a, type: 'ban' }, { team: b, type: 'ban' },
     { team: a, type: 'ban' }, { team: b, type: 'ban' },
     { team: a, type: 'ban' }, { team: b, type: 'ban' },
-    { team: a, type: 'pick' },
-    { team: b, type: 'pick' }, { team: b, type: 'pick' },
-    { team: a, type: 'pick' }, { team: a, type: 'pick' },
-    { team: b, type: 'pick' },
+    ...getPickSequence(firstPick),
   ]
 }

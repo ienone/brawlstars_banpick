@@ -2,10 +2,23 @@
   <div class="bp-root" :class="{ landscape: isLandscape }">
     <!-- Header -->
     <div class="bp-header">
-      <span class="bp-title">BP Phase</span>
+      <span class="bp-title">
+        {{ bpState.phase === 'ban' ? '禁用阶段' : bpState.phase === 'pick' ? '选取阶段' : 'BP' }}
+      </span>
+
       <CountdownTimer :seconds="bpState.timer" :isActive="bpState.status === 'active'" @timeout="handleTimeout" />
-      <span class="turn-info" v-if="currentTurnInfo">
-        Turn {{ bpState.turn + 1 }}/12 — {{ currentTurnInfo.team.toUpperCase() }} {{ currentTurnInfo.type.toUpperCase() }}
+
+      <!-- Ban phase status -->
+      <div v-if="bpState.phase === 'ban'" class="ban-phase-status">
+        <span class="team-blue">🔵 {{ bpState.simultBans?.blue?.length ?? 0 }}/{{ roomStore.BANS_PER_TEAM }}</span>
+        <span class="vs-sep">·</span>
+        <span class="team-red">🔴 {{ bpState.simultBans?.red?.length ?? 0 }}/{{ roomStore.BANS_PER_TEAM }}</span>
+        <span class="ban-hint">双方同时禁用</span>
+      </div>
+
+      <!-- Pick phase turn info -->
+      <span v-else-if="currentTurnInfo" class="turn-info">
+        Turn {{ bpState.turn + 1 }}/6 — {{ currentTurnInfo.team.toUpperCase() }} PICK
       </span>
     </div>
 
@@ -18,7 +31,9 @@
         :seats="roomStore.seats.blue"
         :bans="blueBans"
         :picks="bluePicks"
-        :isActive="currentTeam === 'blue'"
+        :isActive="bpState.phase === 'pick' && currentTeam === 'blue'"
+        :bansRevealed="bpState.simultBans?.revealed ?? false"
+        :bansPerTeam="roomStore.BANS_PER_TEAM"
       />
 
       <!-- Center: Brawler Grid -->
@@ -34,10 +49,19 @@
           @select="handleBrawlerSelect"
         />
 
-        <!-- Soft lock confirmation -->
-        <div v-if="mySoftLock" class="soft-lock-bar">
-          <span>Soft Locked: {{ getBrawlerName(mySoftLock) }}</span>
-          <v-btn color="primary" @click="handleConfirmPick">Confirm Pick</v-btn>
+        <!-- Ban phase confirm bar -->
+        <div v-if="bpState.phase === 'ban' && myPreBan && !myTeamBanFull" class="confirm-bar confirm-ban-bar">
+          <span class="confirm-label">
+            <v-icon color="error" size="16">mdi-cancel</v-icon>
+            禁用: {{ getBrawlerName(myPreBan) }}
+          </span>
+          <v-btn color="error" size="small" @click="handleConfirmBan">确认禁用</v-btn>
+        </div>
+
+        <!-- Pick phase soft-lock confirm bar -->
+        <div v-if="bpState.phase === 'pick' && mySoftLock" class="confirm-bar confirm-pick-bar">
+          <span class="confirm-label">已选: {{ getBrawlerName(mySoftLock) }}</span>
+          <v-btn color="primary" size="small" @click="handleConfirmPick">确认选择</v-btn>
         </div>
       </div>
 
@@ -48,7 +72,9 @@
         :seats="roomStore.seats.red"
         :bans="redBans"
         :picks="redPicks"
-        :isActive="currentTeam === 'red'"
+        :isActive="bpState.phase === 'pick' && currentTeam === 'red'"
+        :bansRevealed="bpState.simultBans?.revealed ?? false"
+        :bansPerTeam="roomStore.BANS_PER_TEAM"
       />
     </div>
 
@@ -85,42 +111,100 @@ const pickedBrawlerIds = computed(() => roomStore.pickedBrawlerIds)
 
 const isLandscape = ref(window.innerWidth > window.innerHeight)
 
-const blueBans = computed(() => bpState.value.bans.filter(b => b.team === 'blue'))
-const redBans = computed(() => bpState.value.bans.filter(b => b.team === 'red'))
-const bluePicks = computed(() => bpState.value.picks.filter(p => p.team === 'blue'))
-const redPicks = computed(() => bpState.value.picks.filter(p => p.team === 'red'))
+// ── Team identification ───────────────────────────────────────────────────
 
 const myUserId = computed(() => authStore.user?.id)
-const mySoftLock = computed(() => bpState.value.softLock[myUserId.value] || null)
+
+const myTeam = computed(() => roomStore.getUserTeam(myUserId.value))
+
+// ── Ban phase state ───────────────────────────────────────────────────────
+
+/** The brawler the current user has pre-selected for banning */
+const myPreBan = computed(() =>
+  bpState.value.phase === 'ban' ? (bpState.value.prePicks[myUserId.value] || null) : null
+)
+
+/** True when own team has already confirmed all bans */
+const myTeamBanFull = computed(() => {
+  if (!myTeam.value) return true
+  const teamBans = bpState.value.simultBans?.[myTeam.value] ?? []
+  return teamBans.length >= roomStore.BANS_PER_TEAM
+})
+
+/**
+ * Returns ban display objects for a team, perspective-aware.
+ * During ban phase: own team sees actual brawlers; opponent sees masked slots.
+ * After reveal: all actual brawlers shown.
+ */
+function getBansForTeam(team) {
+  if (bpState.value.phase === 'ban') {
+    return roomStore.getBansForViewer(team, myTeam.value)
+  }
+  // Pick phase or finished: bans are in bpState.bans (populated after reveal)
+  const brawlersStore = useBrawlersStore()
+  return bpState.value.bans
+    .filter(b => b.team === team)
+    .map(b => ({ brawlerId: b.brawlerId, brawlerObj: brawlersStore.getBrawlerById(b.brawlerId), masked: false }))
+}
+
+const blueBans = computed(() => getBansForTeam('blue'))
+const redBans = computed(() => getBansForTeam('red'))
+
+// ── Pick phase state ──────────────────────────────────────────────────────
+
+const bluePicks = computed(() =>
+  bpState.value.picks
+    .filter(p => p.team === 'blue')
+    .map(p => ({ ...p, brawlerObj: brawlersStore.getBrawlerById(p.brawlerId) }))
+)
+const redPicks = computed(() =>
+  bpState.value.picks
+    .filter(p => p.team === 'red')
+    .map(p => ({ ...p, brawlerObj: brawlersStore.getBrawlerById(p.brawlerId) }))
+)
+
+const mySoftLock = computed(() =>
+  bpState.value.phase === 'pick' ? (bpState.value.softLock[myUserId.value] || null) : null
+)
+
+// ── Helpers ───────────────────────────────────────────────────────────────
 
 function getBrawlerName(brawlerId) {
   const b = brawlersStore.getBrawlerById(brawlerId)
-  return b ? b.name_en : brawlerId
+  return b ? (b.name_cn !== b.name_en ? `${b.name_cn} / ${b.name_en}` : b.name_en) : brawlerId
 }
 
-function getMyTeam() {
-  const uid = myUserId.value
-  if (!uid) return null
-  const blueSeats = roomStore.seats.blue
-  const redSeats = roomStore.seats.red
-  if (blueSeats.players.includes(uid) || blueSeats.coaches.includes(uid)) return 'blue'
-  if (redSeats.players.includes(uid) || redSeats.coaches.includes(uid)) return 'red'
-  return null
+function isMyTurnToPick() {
+  return currentTeam.value === myTeam.value
 }
 
-function isMyTurnToAct() {
-  const myTeam = getMyTeam()
-  return currentTeam.value === myTeam
-}
+// ── Interaction handlers ──────────────────────────────────────────────────
 
+/**
+ * Click on a brawler in the grid.
+ * - Ban phase: any player can pre-select (no turn restriction).
+ * - Pick phase: only the active team's player.
+ */
 function handleBrawlerSelect(brawler) {
-  if (!isMyTurnToAct()) return
   const uid = myUserId.value
+  if (!uid) return
+
   if (bpState.value.phase === 'ban') {
-    roomStore.setPrePick(uid, brawler.bid)
-  } else {
-    roomStore.setSoftLock(uid, brawler.bid)
+    // Anyone on either team can pre-select a ban target
+    if (!myTeamBanFull.value) {
+      roomStore.setPrePick(uid, brawler.bid)
+    }
+  } else if (bpState.value.phase === 'pick') {
+    if (isMyTurnToPick()) {
+      roomStore.setSoftLock(uid, brawler.bid)
+    }
   }
+}
+
+function handleConfirmBan() {
+  const uid = myUserId.value
+  const brawlerId = myPreBan.value
+  if (brawlerId) roomStore.confirmBan(uid, brawlerId)
 }
 
 function handleConfirmPick() {
@@ -129,18 +213,27 @@ function handleConfirmPick() {
   if (brawlerId) roomStore.confirmPick(uid, brawlerId)
 }
 
-function pickRandomAvailableBrawler() {
-  const available = roomStore.availableBrawlers
-  if (available.length === 0) return null
-  return available[Math.floor(Math.random() * available.length)]
-}
-
 function handleTimeout() {
-  if (isMyTurnToAct()) {
-    const brawler = mySoftLock.value
-      ? { bid: mySoftLock.value }
-      : pickRandomAvailableBrawler()
-    if (brawler) roomStore.advanceTurn(brawler.bid)
+  if (bpState.value.phase === 'ban') {
+    // Auto-confirm ban for own team if still slots remaining
+    if (!myTeamBanFull.value) {
+      const uid = myUserId.value
+      const preBan = myPreBan.value
+      if (preBan) {
+        roomStore.confirmBan(uid, preBan)
+      } else {
+        // availableBrawlers already excludes all confirmed bans (both teams)
+        const candidate = roomStore.availableBrawlers[0]
+        if (candidate) roomStore.confirmBan(uid, candidate.bid)
+      }
+    }
+    // Force-reveal regardless (so the game doesn't hang if opponent didn't ban in time)
+    roomStore.revealBans()
+  } else if (bpState.value.phase === 'pick') {
+    if (isMyTurnToPick()) {
+      const brawlerId = mySoftLock.value ?? roomStore.availableBrawlers[0]?.bid
+      if (brawlerId) roomStore.advanceTurn(brawlerId)
+    }
   }
 }
 
@@ -174,11 +267,26 @@ onUnmounted(() => {
   padding: 12px 24px;
   background: #1a1a2e;
   border-bottom: 1px solid rgba(76,175,80,0.3);
+  flex-wrap: wrap;
+  gap: 8px;
 }
 .bp-title {
   font-size: 1.4rem;
   font-weight: bold;
   color: #4CAF50;
+}
+.ban-phase-status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1rem;
+}
+.team-blue { color: #5ab3ff; font-weight: bold; }
+.team-red  { color: #f66e6e; font-weight: bold; }
+.vs-sep { color: rgba(255,255,255,0.3); }
+.ban-hint {
+  color: rgba(255,255,255,0.4);
+  font-size: 0.8rem;
 }
 .turn-info {
   font-size: 1rem;
@@ -200,15 +308,28 @@ onUnmounted(() => {
   flex-direction: column;
   gap: 8px;
 }
-.soft-lock-bar {
+.confirm-bar {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 16px;
-  padding: 8px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+.confirm-ban-bar {
+  background: rgba(246,110,110,0.12);
+  border: 1px solid rgba(246,110,110,0.5);
+}
+.confirm-pick-bar {
   background: rgba(76,175,80,0.15);
   border: 1px solid #4CAF50;
-  border-radius: 8px;
+}
+.confirm-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #fff;
 }
 .finished-overlay {
   position: fixed;

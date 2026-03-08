@@ -29,7 +29,7 @@ describe('useBP composable', () => {
     expect(seq).toHaveLength(12)
   })
 
-  it('ban phase is first 6 turns', async () => {
+  it('ban phase is first 6 turns (getBPSequence)', async () => {
     const { useBP } = await import('../useBP')
     const { getBPSequence } = useBP()
     const seq = getBPSequence('blue')
@@ -38,7 +38,7 @@ describe('useBP composable', () => {
     }
   })
 
-  it('pick phase is turns 6-11', async () => {
+  it('pick phase is turns 6-11 (getBPSequence)', async () => {
     const { useBP } = await import('../useBP')
     const { getBPSequence } = useBP()
     const seq = getBPSequence('blue')
@@ -71,13 +71,26 @@ describe('useBP composable', () => {
     expect(banTeams).toEqual(['red', 'blue', 'red', 'blue', 'red', 'blue'])
   })
 
-  it('currentStep reflects room store turn', async () => {
+  it('currentStep is null during ban phase (simultaneous)', async () => {
     const { useRoomStore } = await import('@/stores/room')
     const { useBP } = await import('../useBP')
     const roomStore = useRoomStore()
     roomStore.config.firstPick = 'blue'
+    // phase starts as 'ban' — currentStep should be null (no turns during ban phase)
+    expect(roomStore.bpState.phase).toBe('ban')
+    const { currentStep } = useBP()
+    expect(currentStep.value).toBeNull()
+  })
+
+  it('currentStep returns pick step after ban phase completes', async () => {
+    const { useRoomStore } = await import('@/stores/room')
+    const { useBP } = await import('../useBP')
+    const roomStore = useRoomStore()
+    roomStore.config.firstPick = 'blue'
+    // Simulate ban phase complete → pick phase, turn 0
+    roomStore.bpState.phase = 'pick'
     roomStore.bpState.turn = 0
     const { currentStep } = useBP()
-    expect(currentStep.value).toEqual({ team: 'blue', type: 'ban' })
+    expect(currentStep.value).toEqual({ team: 'blue', type: 'pick' })
   })
 })

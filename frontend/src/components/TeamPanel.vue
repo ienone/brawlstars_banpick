@@ -9,14 +9,20 @@
     </div>
 
     <!-- Ban slots -->
-    <div class="section-label">BANS</div>
+    <div class="section-label">
+      BANS
+      <span v-if="!bansRevealed && banCount < bansPerTeam" class="ban-status">
+        {{ banCount }}/{{ bansPerTeam }}
+      </span>
+    </div>
     <div class="ban-slots">
       <BPSlot
-        v-for="i in 3" :key="`ban-${i}`"
+        v-for="i in bansPerTeam" :key="`ban-${i}`"
         :team="team"
         type="ban"
         :index="i-1"
         :brawler="bans[i-1]?.brawlerObj || null"
+        :masked="!!(bans[i-1]?.masked)"
         :isCurrent="false"
       />
     </div>
@@ -46,15 +52,22 @@
 </template>
 
 <script setup>
+import { computed } from 'vue'
 import BPSlot from './BPSlot.vue'
 
-defineProps({
+const props = defineProps({
   team: { type: String, default: 'blue' },
   seats: { type: Object, default: () => ({ players: [], coaches: [] }) },
+  /** Array of ban slot objects: { brawlerObj, masked } | null */
   bans: { type: Array, default: () => [] },
   picks: { type: Array, default: () => [] },
   isActive: { type: Boolean, default: false },
+  /** True once ban phase is over and all bans are revealed. */
+  bansRevealed: { type: Boolean, default: false },
+  bansPerTeam: { type: Number, default: 3 },
 })
+
+const banCount = computed(() => props.bans.filter(b => b !== null).length)
 </script>
 
 <style scoped>
@@ -87,6 +100,13 @@ defineProps({
   letter-spacing: 1px;
   color: rgba(255,255,255,0.4);
   padding: 0 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.ban-status {
+  color: rgba(246,110,110,0.7);
+  font-weight: bold;
 }
 .ban-slots, .pick-slots {
   display: flex;
